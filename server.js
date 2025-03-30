@@ -1,5 +1,9 @@
+// This is a simple Express server that serves a static HTML file and provides an API endpoint for the frontend to interact with the OpenAI API.
+
+
 // Load environment variables from .env file
 require('dotenv').config();
+
 
 // Check if the OpenAI API key is loaded
 console.log("Loaded API Key:", process.env.OPENAI_API_KEY ? "✅ Loaded" : "❌ Not Loaded");  
