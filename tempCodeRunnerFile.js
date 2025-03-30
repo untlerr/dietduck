@@ -1,1 +1,1 @@
-Yella
+- Dietary restrictions: ${preferences["Dietary restrictions"].join(', ')}
