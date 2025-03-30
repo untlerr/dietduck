@@ -73,7 +73,7 @@ ${menuDescription}
 Use only items featured in the restuarants items. Do not use items that are not listed.
 DO not split up individual ingredients from the same menu item. For example if a menu item has beef patty and lettuce together do not separate them into two different items
 Users need between 1,600 and 2,400 calories a day. For each meal option, consider the Calories: Aim for a meal with approximately 500-800 calories.
-The meals should each be pretty different offering a  healthy, medium healthy, and comfort/cheat meal but don't label them.
+The meals should each be pretty different offering a  healthy, a average , and a comfort/cheat meal but don't label them.
 - **Tu Taco:** Offers burritos, bowls, and quesadillas with various fillings. You can combine fillings (e.g., rice, beans, veggies) into a single burrito bowl.
 - **Yella's:** Offers a variety of burgers and subs. You can combine these (e.g., a sub with a side of sweet potato fries) to create a meal.
 - **Pierce**: Offfer a variety of diffrent food options all in a buffet type of onfiguration. You can combine these (e.g., a plate with a side of veggies and a protein) to create a meal.
@@ -88,10 +88,10 @@ Return ONLY a JSON object with this structure:
 {
   "meals": [
     {
-      "name": "Meal Option 1",
+      "name": "Meal name",
       "description": "Description of the meal",
       "items": ["Item 1", "Item 2"],
-      "itemsservingsize": ["Item 1: Serving Size", "Item 2: Serving Size"],
+      "itemsservingsize": ["Item 1: Serving Size", "Item 2: Serving Size"], (if applicable)
       "macros": {
         "calories": 0,
         "protein": 0,

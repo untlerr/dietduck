@@ -448,3 +448,52 @@ select:focus {
 .restaurant-dot:hover .restaurant-name-tooltip {
     opacity: 1;
 }
+
+.restaurant-dots {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+
+    /* Change background image path to your new image */
+    background-image: url('Stevens-Campus-Map-2022-09.png');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Center the dot at its position */
+    transform: translate(-50%, -50%);
+}
+
+/* Make dots scale based on container size */
+@media screen and (min-width: 768px) {
+    .restaurant-dot {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .restaurant-dot {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.restaurant-dot:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
