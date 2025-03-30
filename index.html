@@ -4,30 +4,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diet Duck</title>
+    <title>Login</title>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1230.0.min.js"></script>
+    <script src="login.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="userAuth.js"></script>
+    <style>
+        /* Add your existing styles here */
+        
+        
+        :root {
+            --main-bg: #e0e5ec;
+            --text-color: #363636;
+            --shadow-light: #ffffff;
+            --shadow-dark: #a3b1c6;
+            --toggle: #690021;
+            --accent: #A50034;
+            --border-radius: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--main-bg);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .auth-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            background: var(--main-bg);
+            box-shadow: 8px 8px 16px var(--shadow-dark),
+                -8px -8px 16px var(--shadow-light);
+            text-align: center;
+        }
+
+        /* Toggle slider styles */
+        .toggle-slider {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .toggle-slider input {
+            display: none; /* Hide the actual checkbox */
+        }
+
+        .toggle-slider label {
+            flex: 1;
+            padding: 10px;
+            background-color: var(--accent);
+            color: white;
+            border-radius: var(--border-radius);
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-slider label.active {
+            background-color: var(--toggle);
+        }
+
+        /* Input fields */
+        .auth-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: var(--border-radius);
+            background: var(--main-bg);
+            box-shadow: inset 4px 4px 8px var(--shadow-dark),
+                inset -4px -4px 8px var(--shadow-light);
+            color: var(--text-color);
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        /* Buttons */
+        .auth-container button {
+            width: 100%;
+            margin-top: 10px;
+            font-weight: 600;
+            padding: 10px; /* Added padding for consistency */
+            background-color: var(--accent); /* Use the defined accent color */
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            box-shadow: 6px 6px 12px var(--shadow-dark),
+                -6px -6px 12px var(--shadow-light);
+        }
+    </style>
 </head>
-<!-- login script for the login page-->
 
 <body>
-    <h1>Diet Duck</h1>
-    <!--CURRENTLY SET TO PLACEHOLDER FUNCTION></!-->
-    <form onsubmit="login(event)">
-        <input type="text" id="username" placeholder="Enter username" required>
-        <input type="password" id="password" placeholder="Enter password" required>
-        <button type="submit">Login</button>
-    </form>
+    <div class="auth-container">
+        <h1 style="margin-bottom: 20px;">Diet Duck</h1>
+        
+        <div class="toggle-slider">
+            <input type="radio" id="loginToggle" name="authToggle" checked>
+            <label for="loginToggle" class="active">Login</label>
+            <input type="radio" id="signUpToggle" name="authToggle">
+            <label for="signUpToggle">Sign Up</label>
+        </div>
 
-  <p> <a href="signup.html">Sign Up</a></p>
+        <div id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button onclick="login()">Login</button>
+        </div>
 
+        <div id="signUpForm" style="display: none;">
+            <input type="text" id="signUpUsername" placeholder="Username" required>
+            <input type="password" id="signUpPassword" placeholder="Password" required>
+            <button onclick="signUp()">Create Account</button>
+        </div>
+    </div>
 
-    <!-- PLACEHOLDER BUTTON: DELETE!!!!!!!!> </!-->
-    <button onclick="redirectToPage()"> homepage(placeholder)</button>
+    
+
     <script>
-        function redirectToPage() {
-            window.location.href = "homepage.html";
-        }
+        // Toggle between Login and Sign Up forms
+        const loginToggle = document.getElementById('loginToggle');
+        const signUpToggle = document.getElementById('signUpToggle');
+        const loginForm = document.getElementById('loginForm');
+        const signUpForm = document.getElementById('signUpForm');
+
+        loginToggle.addEventListener('change', () => {
+            if (loginToggle.checked) {
+                loginForm.style.display = 'block';
+                signUpForm.style.display = 'none';
+                loginToggle.nextElementSibling.classList.add('active');
+                signUpToggle.nextElementSibling.classList.remove('active');
+            }
+        });
+
+        signUpToggle.addEventListener('change', () => {
+            if (signUpToggle.checked) {
+                loginForm.style.display = 'none';
+                signUpForm.style.display = 'block';
+                signUpToggle.nextElementSibling.classList.add('active');
+                loginToggle.nextElementSibling.classList.remove('active');
+            }
+        });
     </script>
 </body>
 </html>
