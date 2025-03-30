@@ -8,11 +8,15 @@ require('dotenv').config();
 const app = express();
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-app.use(cors());
-app.use(express.json());
+// ...existing code...
+app.use(cors({
+  origin: ['http://127.0.0.1:5500', 'http://localhost:5500'],
+  credentials: true
+}));
+// ...existing code...app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/api/restaurants', (req, res) => {
+app.get('api/restaurants', (req, res) => {
   try {
     const restaurants = fs.readdirSync(path.join(__dirname, 'restaurants'))
       .filter(file => file.endsWith('.json'))
@@ -37,16 +41,21 @@ app.post('/api/recommendations', async (req, res) => {
 
     const menuItems = JSON.parse(fs.readFileSync(restaurantPath, 'utf8'));
     
+    // Format menu items for the prompt
     const menuDescription = menuItems.map(item => {
+      // Clean up nutrition data
       const nutrition = Object.entries(item.nutrition)
         .map(([key, value]) => {
+          // Remove underscores and format key properly
           const cleanKey = key.replace(/_/g, ' ').replace(/\(|\)/g, '');
           return `${cleanKey}: ${value}`;
         })
         .join(', ');
       
+      // Get ingredients, filtering out duplicated nutrition info
       const cleanIngredients = item.ingredients
         .filter((ing, index) => {
+          // Skip the first ingredient if it contains duplicated nutrition info
           if (index === 0 && ing.includes('\n\u00d7\n')) {
             return false;
           }
@@ -54,6 +63,7 @@ app.post('/api/recommendations', async (req, res) => {
         })
         .join(', ');
       
+      // Return formatted menu item description with portion
       return `- ${item.name}\n  ${nutrition}\n  Portion: ${item.portion}\n  Ingredients: ${cleanIngredients || 'None'}`;
     }).join('\n');
 
