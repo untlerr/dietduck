@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Recommender</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1></h1>
+
+    <div class="selectors">
+      <!-- Restaurant dot selector with background image -->
+      <div id="restaurantSelector" class="restaurant-dots">
+        <!-- Background image will be added via CSS -->
+        <!-- Dots will be added here dynamically -->
+      </div>
+
+      <select id="mealSelect">
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+      </select>
+
+      <button onclick="getRecommendations()">Get Recommendations</button>
+    </div>
+
+    <div id="results"></div>
+
+    <div class="footer">
+      <span id="current-time"></span>
+    </div>
+  </div>
+
+  <script>
+    // Load restaurants and initialize clock
+    window.onload = async () => {
+      // Load restaurants
+      const response = await fetch('http://localhost:3000/api/restaurants');
+      const restaurants = await response.json();
+
+      // Update the restaurant selector dimensions
+      const dotContainer = document.getElementById('restaurantSelector');
+      updateDotContainerSize();
+
+      // Responsive dot sizing based on container size
+      window.addEventListener('resize', updateDotContainerSize);
+
+      function updateDotContainerSize() {
+        // Adjust dot container height based on width for responsive design
+        const containerWidth = dotContainer.offsetWidth;
+        dotContainer.style.height = `${containerWidth * 0.6}px`;
+
+        // Update dot sizes based on container dimensions
+        const scale = containerWidth / 1000; // Reference width of 1000px
+        document.querySelectorAll('.restaurant-dot').forEach(dot => {
+          const minSize = 16; // Minimum dot size in pixels
+          const size = Math.max(Math.floor(24 * scale), minSize);
+          dot.style.width = `${size}px`;
+          dot.style.height = `${size}px`;
+        });
+      }
+
+      // Define coordinates for each restaurant (manually set)
+      const restaurantCoordinates = {
+        // Replace these with your actual restaurant names and desired positions
+        'McDonalds': { x: 20, y: 30 },
+        'Chipotle': { x: 70, y: 40 },
+        'Starbucks': { x: 50, y: 15 },
+        'Subway': { x: 30, y: 70 },
+        'Panera': { x: 80, y: 60 },
+        'Wendys': { x: 15, y: 50 },
+        'Taco Bell': { x: 60, y: 65 },
+        'Pizza Hut': { x: 35, y: 25 },
+        'KFC': { x: 85, y: 35 },
+        'Burger King': { x: 45, y: 80 }
+        // Add coordinates for all your restaurants
+      };
+
+      // Create restaurant dots
+      restaurants.forEach(restaurant => {
+        // Get specific coordinates or use random if not defined
+        const coords = restaurantCoordinates[restaurant] || {
+          x: Math.floor(Math.random() * 80) + 10, // fallback to random if not defined
+          y: Math.floor(Math.random() * 80) + 10
+        };
+
+        // Create dot element
+        const dot = document.createElement('div');
+        dot.className = 'restaurant-dot';
+        dot.style.left = `${coords.x}%`;
+        dot.style.top = `${coords.y}%`;
+        dot.dataset.restaurant = restaurant;
+
+        // Add tooltip for restaurant name
+        const tooltip = document.createElement('div');
+        tooltip.className = 'restaurant-name-tooltip';
+        tooltip.textContent = restaurant;
+        tooltip.style.transform = 'translateX(-50%)';
+        tooltip.style.bottom = '130%'; // Position above the dot
+        dot.appendChild(tooltip);
+
+        // Handle dot selection
+        dot.addEventListener('click', () => {
+          // Remove selected class from all dots
+          document.querySelectorAll('.restaurant-dot').forEach(d => {
+            d.classList.remove('selected');
+          });
+
+          // Add selected class to clicked dot
+          dot.classList.add('selected');
+        });
+
+        dotContainer.appendChild(dot);
+      });
+
+      // Call dot sizing after creation
+      updateDotContainerSize();
+
+      // Initialize and update the clock
+      updateTime();
+      setInterval(updateTime, 1000);
+    };
+
+    // Update the time display
+    function updateTime() {
+      const now = new Date();
+      const timeDisplay = document.getElementById('current-time');
+      timeDisplay.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    }
+
+    // Parse serving size to get numeric value and unit
+    function parseServingSize(servingSize) {
+      if (!servingSize) return { value: 1, unit: 'serving', text: '1 serving' };
+
+      // Extract the actual serving size (after the colon)
+      const sizePart = servingSize.split(': ')[1] || servingSize;
+
+      // Try to extract numeric value
+      const numMatch = sizePart.match(/(\d+(\.\d+)?)/);
+      const numValue = numMatch ? parseFloat(numMatch[0]) : 1;
+
+      // Extract unit (anything after the number)
+      let unit = 'serving';
+      if (numMatch) {
+        unit = sizePart.replace(numMatch[0], '').trim();
+        if (!unit) unit = 'serving';
+      } else {
+        unit = sizePart.trim();
+      }
+
+      return {
+        value: numValue,
+        unit: unit,
+        text: sizePart
+      };
+    }
+
+    // Generate a color based on item name for consistency
+    function getItemColor(itemName) {
+      // Simple hash function to generate a hue value between 0-360
+      let hash = 0;
+      for (let i = 0; i < itemName.length; i++) {
+        hash = itemName.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      const hue = hash % 360;
+      return `hsl(${hue}, 70%, 65%)`;
+    }
+
+    function formatMealRecommendations(data) {
+      let html = `<h2>${data.restaurant}</h2>`;
+
+      if (data.recommendations && data.recommendations.meals) {
+        html += '<div class="meal-options">';
+
+        data.recommendations.meals.forEach((meal) => {
+          // Generate plates for individual items
+          const itemsWithServings = meal.items.map((item, index) => {
+            const servingInfo = meal.itemsservingsize && meal.itemsservingsize[index]
+              ? meal.itemsservingsize[index]
+              : null;
+
+            const parsed = servingInfo ? parseServingSize(servingInfo) : null;
+            const itemColor = getItemColor(item);
+
+            return {
+              name: item,
+              serving: parsed,
+              color: itemColor,
+              hasPortionData: !!servingInfo
+            };
+          });
+
+          // Generate HTML for the meal card
+          html += `
+                        <div class="meal-option">
+                            <h3>${meal.name}</h3>
+                            <p>${meal.description}</p>
+                            
+                            <div class="meal-details">
+                                <div class="items-section">
+                                    <h4>Items</h4>
+                                    <ul>
+                                        ${itemsWithServings.map(item => `
+                                            <li>
+                                                <div class="item-name">
+                                                    <span style="display: inline-block; width: 10px; height: 10px; background-color: ${item.color}; margin-right: 5px;"></span>
+                                                    ${item.name} ${item.hasPortionData ? `<span class="portion-text">(${item.serving.text})</span>` : ''}
+                                                </div>
+                                            </li>
+                                        `).join('')}
+                                    </ul>
+                                </div>
+                                
+                                <div class="macros-grid">
+                                    <div class="macro-item">
+                                        <span class="macro-label">Cal</span>
+                                        <span class="macro-value">${meal.macros.calories}</span>
+                                    </div>
+                                    <div class="macro-item">
+                                        <span class="macro-label">Protein</span>
+                                        <span class="macro-value">${meal.macros.protein}g</span>
+                                    </div>
+                                    <div class="macro-item">
+                                        <span class="macro-label">Carbs</span>
+                                        <span class="macro-value">${meal.macros.carbs}g</span>
+                                    </div>
+                                    <div class="macro-item">
+                                        <span class="macro-label">Fat</span>
+                                        <span class="macro-value">${meal.macros.fat}g</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+        });
+
+        html += '</div>';
+      } else if (data.recommendations && data.recommendations.error) {
+        html += `<p class="error">Error: ${data.recommendations.error}</p>`;
+      } else {
+        html += '<p class="error">No recommendations available</p>';
+      }
+
+      return html;
+    }
+
+    async function getRecommendations() {
+      const selectedDot = document.querySelector('.restaurant-dot.selected');
+      const mealType = document.getElementById('mealSelect').value;
+
+      if (!selectedDot) {
+        alert('Please select a restaurant by clicking on a dot!');
+        return;
+      }
+
+      const restaurant = selectedDot.dataset.restaurant;
+
+      try {
+        document.getElementById('results').innerHTML = '<div class="loading">Loading recommendations...</div>';
+
+        const response = await fetch('http://localhost:3000/api/recommendations', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ restaurantName: restaurant, mealType })
+        });
+
+        const data = await response.json();
+        document.getElementById('results').innerHTML = formatMealRecommendations(data);
+      } catch (error) {
+        alert('Error getting recommendations');
+        console.error(error);
+      }
+    }
+  </script>
+</body>
+
+</html>
