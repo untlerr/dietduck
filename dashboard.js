@@ -31,6 +31,15 @@ function toggleMenu() {
     menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
 }
 
+// Log out function
+function logout() {
+  // Clear user session data
+  localStorage.removeItem('userSession'); // Replace with your session key if necessary
+  // Redirect to login page
+  window.location.href = 'index.html';
+}
+
+
 // Optional: Close the menu if clicked outside
 window.onclick = function(event) {
     if (!event.target.matches('.hamburger') && !event.target.matches('.dropdown-menu *')) {

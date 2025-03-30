@@ -141,7 +141,7 @@
         <div class="dropdown-menu" id="dropdownMenu">
             <a href="dashboard.html">Dashboard</a>
             <a href="settings.html">Settings</a>
-            <a href="index.html">Log Out</a>
+            <a href="index.html" onclick="logout()">Log Out</a>
         </div>
     </div>
 
@@ -160,52 +160,63 @@
     </div>
 
     <script>
-        const preferences = [];
-
+        // Load preferences from local storage on page load
+        const preferences = JSON.parse(localStorage.getItem('preferences')) || [];
+    
+        // Display existing preferences when the page loads
+        window.onload = displayPreferences;
+    
         // Add preference function
         function addPreference() {
             const input = document.getElementById('preferenceInput');
             const preference = input.value.trim();
-
+    
             if (preference) {
                 preferences.push(preference);
                 input.value = ''; // Clear input field
                 displayPreferences();
                 document.getElementById('resultMessage').innerText = 'Preference added!';
+                savePreferences(); // Save to local storage
             } else {
                 document.getElementById('resultMessage').innerText = 'Please enter a valid preference.';
             }
         }
-
+    
         // Display preferences as bubbles
         function displayPreferences() {
             const container = document.getElementById('bubbleContainer');
             container.innerHTML = ''; // Clear previous bubbles
-
+    
             preferences.forEach((pref, index) => {
                 const bubble = document.createElement('div');
                 bubble.className = 'bubble';
                 bubble.innerText = pref;
-
+    
                 const removeBtn = document.createElement('span');
                 removeBtn.className = 'remove';
                 removeBtn.innerText = 'x';
                 removeBtn.onclick = () => {
                     preferences.splice(index, 1); // Remove preference from array
                     displayPreferences(); // Refresh bubbles
+                    savePreferences(); // Save to local storage
                 };
-
+    
                 bubble.appendChild(removeBtn);
                 container.appendChild(bubble);
             });
         }
-
+    
+        // Save preferences to local storage
+        function savePreferences() {
+            localStorage.setItem('preferences', JSON.stringify(preferences));
+        }
+    
         // Hamburger menu toggle function
         function toggleMenu() {
             const menu = document.getElementById('dropdownMenu');
             menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
         }
-
+    
         // Close the menu if clicked outside
         window.onclick = function(event) {
             if (!event.target.matches('.hamburger') && !event.target.matches('.dropdown-menu *')) {
@@ -216,6 +227,7 @@
             }
         }
     </script>
+    
 </body>
 
 </html>
