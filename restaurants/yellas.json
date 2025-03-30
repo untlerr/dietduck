@@ -18,7 +18,16 @@
       "calcium": "323 g",
       "iron": "7 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "cheddar cheese",
+      "lettuce",
+      "tomato",
+      "pickles",
+      "red onions",
+      "special sauce",
+      "sesame seed bun"
+    ]
   },
   {
     "title": "The Fat Angelo",
@@ -38,7 +47,16 @@
       "calcium": "272 g",
       "iron": "7 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "pepperoni",
+      "mozzarella cheese",
+      "marinara sauce",
+      "lettuce",
+      "tomato",
+      "basil",
+      "brioche bun"
+    ]
   },
   {
     "title": "The Benny Brown",
@@ -58,7 +76,16 @@
       "calcium": "282 g",
       "iron": "6 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "double beef patties",
+      "American cheese",
+      "lettuce",
+      "tomato",
+      "pickles",
+      "red onions",
+      "secret sauce",
+      "sesame bun"
+    ]
   },
   {
     "title": "The Grandpa Joe",
@@ -78,7 +105,15 @@
       "calcium": "452 g",
       "iron": "6 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "Swiss cheese",
+      "caramelized onions",
+      "lettuce",
+      "tomato",
+      "yellow mustard",
+      "sesame bun"
+    ]
   },
   {
     "title": "THE LOMBARDI",
@@ -98,7 +133,14 @@
       "calcium": "245 g",
       "iron": "6 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "provolone cheese",
+      "marinara sauce",
+      "fresh basil",
+      "garlic aioli",
+      "ciabatta roll"
+    ]
   },
   {
     "title": "Eggplant Milanese",
@@ -119,7 +161,14 @@
       "calcium": "468 g",
       "iron": "8 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "breaded eggplant",
+      "marinara sauce",
+      "mozzarella cheese",
+      "fresh basil",
+      "parmesan cheese",
+      "focaccia bread"
+    ]
   },
   {
     "title": "Chicken Bacon Ranch",
@@ -139,7 +188,15 @@
       "calcium": "214 g",
       "iron": "2 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "grilled chicken breast",
+      "crispy bacon",
+      "ranch dressing",
+      "lettuce",
+      "tomato",
+      "Swiss cheese",
+      "toasted bun"
+    ]
   },
   {
     "title": "Hamburger",
@@ -159,7 +216,17 @@
       "calcium": "126 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "lettuce",
+      "tomato",
+      "pickles",
+      "red onions",
+      "ketchup",
+      "mustard",
+      "mayonnaise",
+      "sesame seed bun"
+    ]
   },
   {
     "title": "Classic Cheeseburger",
@@ -179,7 +246,16 @@
       "calcium": "175 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "American cheese",
+      "lettuce",
+      "tomato",
+      "pickles",
+      "ketchup",
+      "mustard",
+      "sesame bun"
+    ]
   },
   {
     "title": "The Yella Burger",
@@ -199,7 +275,15 @@
       "calcium": "199 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "melted cheese",
+      "lettuce",
+      "tomato",
+      "red onions",
+      "special house sauce",
+      "toasted bun"
+    ]
   },
   {
     "title": "Bacon Cheeseburger",
@@ -219,7 +303,16 @@
       "calcium": "187 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "crispy bacon",
+      "cheddar cheese",
+      "lettuce",
+      "tomato",
+      "pickles",
+      "special sauce",
+      "sesame seed bun"
+    ]
   },
   {
     "title": "Jersey Smash",
@@ -239,7 +332,16 @@
       "calcium": "184 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "smashed beef patty",
+      "American cheese",
+      "lettuce",
+      "tomato",
+      "red onions",
+      "pickles",
+      "secret sauce",
+      "brioche bun"
+    ]
   },
   {
     "title": "The Cowboy Burger",
@@ -259,7 +361,16 @@
       "calcium": "331 g",
       "iron": "5 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "beef patty",
+      "smoked bacon",
+      "cheddar cheese",
+      "BBQ sauce",
+      "crispy onions",
+      "lettuce",
+      "tomato",
+      "sesame bun"
+    ]
   },
   {
     "title": "Crispy Chicken",
@@ -279,7 +390,14 @@
       "calcium": "119 g",
       "iron": "2 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "crispy fried chicken breast",
+      "lettuce",
+      "tomato",
+      "mayonnaise",
+      "pickles",
+      "toasted bun"
+    ]
   },
   {
     "title": "Buffalo Chicken",
@@ -299,7 +417,13 @@
       "calcium": "103 g",
       "iron": "2 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "spicy buffalo chicken breast",
+      "blue cheese dressing",
+      "lettuce",
+      "tomato",
+      "sesame seed bun"
+    ]
   },
   {
     "title": "Nashville Hot",
@@ -319,7 +443,13 @@
       "calcium": "146 g",
       "iron": "2 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "spicy fried chicken",
+      "pickles",
+      "coleslaw",
+      "hot sauce",
+      "toasted bun"
+    ]
   },
   {
     "title": "Grilled Chicken",
@@ -339,7 +469,14 @@
       "calcium": "99 g",
       "iron": "2 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "grilled chicken breast",
+      "lettuce",
+      "tomato",
+      "red onions",
+      "light mayonnaise",
+      "whole grain bun"
+    ]
   },
   {
     "title": "Jumbo Tenders",
@@ -359,7 +496,11 @@
       "calcium": "22 g",
       "iron": "1 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "breaded chicken tenders",
+      "seasoning",
+      "dipping sauces (ranch, BBQ, honey mustard)"
+    ]
   },
   {
     "title": "The Yella Submarine",
@@ -380,7 +521,16 @@
       "calcium": "392 g",
       "iron": "6 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "Italian cold cuts (ham, salami, pepperoni)",
+      "provolone cheese",
+      "lettuce",
+      "tomato",
+      "red onions",
+      "banana peppers",
+      "Italian dressing",
+      "sub roll"
+    ]
   },
   {
     "title": "The Torpedo",
@@ -401,7 +551,17 @@
       "calcium": "332 g",
       "iron": "6 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "roast beef",
+      "turkey",
+      "ham",
+      "provolone cheese",
+      "lettuce",
+      "tomato",
+      "mayonnaise",
+      "Italian seasoning",
+      "sub roll"
+    ]
   },
   {
     "title": "The Nuclear Sub",
@@ -421,7 +581,16 @@
       "calcium": "460 g",
       "iron": "6 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "spicy turkey",
+      "ham",
+      "jalapeños",
+      "pepper jack cheese",
+      "lettuce",
+      "tomato",
+      "chipotle mayo",
+      "sub roll"
+    ]
   },
   {
     "title": "Turkey Club Sub",
@@ -441,7 +610,14 @@
       "calcium": "432 g",
       "iron": "7 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "sliced turkey",
+      "crispy bacon",
+      "lettuce",
+      "tomato",
+      "mayonnaise",
+      "whole grain sub roll"
+    ]
   },
   {
     "title": "Talking Turkey Sub",
@@ -461,7 +637,15 @@
       "calcium": "461 g",
       "iron": "7 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "oven-roasted turkey",
+      "Swiss cheese",
+      "lettuce",
+      "tomato",
+      "cranberry sauce",
+      "mayonnaise",
+      "sub roll"
+    ]
   },
   {
     "title": "Vanilla Shake",
@@ -481,7 +665,11 @@
       "calcium": "g",
       "iron": "g"
     },
-    "ingredients": []
+    "ingredients": [
+      "vanilla ice cream",
+      "milk",
+      "vanilla syrup"
+    ]
   },
   {
     "title": "CHOCOLATE SHAKE",
@@ -501,7 +689,11 @@
       "calcium": "6 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "chocolate ice cream",
+      "milk",
+      "chocolate syrup"
+    ]
   },
   {
     "title": "STRAWBERRY SHAKE",
@@ -521,7 +713,12 @@
       "calcium": "0 g",
       "iron": "0 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "strawberry ice cream",
+      "fresh strawberries",
+      "milk",
+      "strawberry syrup"
+    ]
   },
   {
     "title": "CARAMEL SHAKE",
@@ -541,7 +738,11 @@
       "calcium": "g",
       "iron": "g"
     },
-    "ingredients": []
+    "ingredients": [
+      "vanilla ice cream",
+      "milk",
+      "caramel sauce"
+    ]
   },
   {
     "title": "FRIES",
@@ -561,7 +762,11 @@
       "calcium": "23 g",
       "iron": "1 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "potatoes",
+      "oil",
+      "salt"
+    ]
   },
   {
     "title": "SWEET POTATO WAFFLE FRIES",
@@ -581,7 +786,12 @@
       "calcium": "33 g",
       "iron": "1 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "sweet potatoes",
+      "oil",
+      "salt",
+      "spices"
+    ]
   },
   {
     "title": "ONION RINGS",
@@ -601,7 +811,12 @@
       "calcium": "36 g",
       "iron": "5 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "onions",
+      "batter (flour, spices)",
+      "oil",
+      "salt"
+    ]
   },
   {
     "title": "EGG & CHEESE SANDWICH",
@@ -621,7 +836,12 @@
       "calcium": "170 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "eggs",
+      "American cheese",
+      "butter",
+      "English muffin"
+    ]
   },
   {
     "title": "BACON, EGG & CHEESE SANDWICH",
@@ -641,7 +861,13 @@
       "calcium": "170 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "eggs",
+      "crispy bacon",
+      "American cheese",
+      "butter",
+      "English muffin"
+    ]
   },
   {
     "title": "SAUSAGE, EGG & CHEESE SANDWICH",
@@ -661,7 +887,13 @@
       "calcium": "170 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "sausage patty",
+      "eggs",
+      "American cheese",
+      "butter",
+      "English muffin"
+    ]
   },
   {
     "title": "HAM , EGG & CHEESE SANDWICH",
@@ -681,6 +913,12 @@
       "calcium": "170 g",
       "iron": "3 g"
     },
-    "ingredients": []
+    "ingredients": [
+      "ham",
+      "eggs",
+      "American cheese",
+      "butter",
+      "English muffin"
+    ]
   }
 ]

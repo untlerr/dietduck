@@ -69,10 +69,16 @@ app.post('/api/recommendations', async (req, res) => {
 
 Available meals/ingredients:
 ${menuDescription}
-If the restaurant has many a la cart options or sides, consider those and build a well rounded meal.
-If the restaurant is pierce do not have the user assemble too much of their meal. Rather combine multiple substantial sources.Exeptions for things like burgers or sandwhiches were ingredents are only
-The meals should each be pretty different offering a very healthy, medium healthy, and comfort/cheat meal but don't label them.
-If you you have a better name for any of the food items you can update the anem of the food item.
+
+Use only items featured in the restuarants items. Do not use items that are not listed.
+DO not split up individual ingredients from the same menu item. For example if a menu item has beef patty and lettuce together do not separate them into two different items
+Users need between 1,600 and 2,400 calories a day. For each meal option, consider the Calories: Aim for a meal with approximately 500-800 calories.
+The meals should each be pretty different offering a  healthy, medium healthy, and comfort/cheat meal but don't label them.
+- **Tu Taco:** Offers burritos, bowls, and quesadillas with various fillings. You can combine fillings (e.g., rice, beans, veggies) into a single burrito bowl.
+- **Yella's:** Offers a variety of burgers and subs. You can combine these (e.g., a sub with a side of sweet potato fries) to create a meal.
+- **Pierce**: Offfer a variety of diffrent food options all in a buffet type of onfiguration. You can combine these (e.g., a plate with a side of veggies and a protein) to create a meal.
+When finding the total macros per meal add the amcros very carefully and check youre math.
+
 Prioritize:
 1. Matching dietary needs
 2. Avoiding disliked ingredients
@@ -100,7 +106,7 @@ Return ONLY a JSON object with this structure:
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       messages: [{ role: "user", content: prompt }],
-      temperature: 0.1,
+      temperature: 0.2,
       max_tokens: 1000,
       response_format: { type: "json_object" }
     });
