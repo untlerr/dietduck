@@ -1,0 +1,499 @@
+:root {
+    --main-bg: #e0e5ec;
+    --text-color: #2d4263;
+    --shadow-light: #ffffff;
+    --shadow-dark: #a3b1c6;
+    --accent: #6b7b8c;
+    --border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 8px 8px 16px var(--shadow-dark),
+        -8px -8px 16px var(--shadow-light);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.selectors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+select,
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--main-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px var(--shadow-dark),
+        -6px -6px 12px var(--shadow-light);
+    transition: all 0.2s ease;
+}
+
+select {
+    flex: 1;
+    min-width: 130px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%232d4263' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 35px;
+}
+
+button {
+    background-color: var(--main-bg);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+select:hover,
+button:hover {
+    box-shadow: 4px 4px 8px var(--shadow-dark),
+        -4px -4px 8px var(--shadow-light);
+}
+
+button:active,
+select:focus {
+    box-shadow: inset 4px 4px 8px var(--shadow-dark),
+        inset -4px -4px 8px var(--shadow-light);
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: var(--accent);
+}
+
+.meal-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.meal-option {
+    padding: 18px;
+    border-radius: var(--border-radius);
+    box-shadow: 6px 6px 12px var(--shadow-dark),
+        -6px -6px 12px var(--shadow-light);
+    transition: all 0.3s ease;
+    background: linear-gradient(145deg, #e6ebf2, #dadfe6);
+}
+
+.meal-option:hover {
+    transform: translateY(-3px);
+}
+
+.meal-option h3 {
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--shadow-dark);
+}
+
+.meal-option p {
+    margin-bottom: 15px;
+    line-height: 1.4;
+    color: var(--accent);
+    font-size: 0.9rem;
+}
+
+.meal-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.items-section {
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: inset 3px 3px 6px var(--shadow-dark),
+        inset -3px -3px 6px var(--shadow-light);
+}
+
+.meal-option h4 {
+    margin-bottom: 8px;
+    color: var(--accent);
+    font-size: 1rem;
+}
+
+.meal-option ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.meal-option li {
+    padding: 4px 0;
+    position: relative;
+    font-size: 0.85rem;
+}
+
+.meal-option li::before {
+    content: '•';
+    color: var(--accent);
+    position: absolute;
+    left: -10px;
+}
+
+.macros-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.macro-item {
+    padding: 8px;
+    text-align: center;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 2px 2px 4px var(--shadow-dark),
+        -2px -2px 4px var(--shadow-light);
+}
+
+.macro-label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--accent);
+    margin-bottom: 3px;
+}
+
+.macro-value {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.error {
+    text-align: center;
+    color: #e74c3c;
+    margin: 15px 0;
+    padding: 12px;
+    border-radius: var(--border-radius);
+    box-shadow: inset 4px 4px 8px var(--shadow-dark),
+        inset -4px -4px 8px var(--shadow-light);
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .meal-options {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+    }
+
+    .meal-option {
+        padding: 22px;
+    }
+
+    .meal-option h3 {
+        font-size: 1.3rem;
+    }
+
+    .meal-option p {
+        font-size: 1rem;
+    }
+
+    /* Add this to your existing CSS */
+
+    .footer {
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8rem;
+        color: var(--accent);
+        opacity: 0.7;
+    }
+
+    #current-time {
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 20px;
+        background: var(--main-bg);
+        box-shadow: inset 2px 2px 5px var(--shadow-dark),
+            inset -2px -2px 5px var(--shadow-light);
+    }
+}
+
+/* Add these styles to your existing CSS */
+
+/* Portion Visualization */
+.portion-visualization {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.portion-visualization h4 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--accent);
+    margin-bottom: 15px;
+}
+
+.portion-components {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.portion-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.portion-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.portion-text {
+    color: var(--text-color);
+}
+
+/* Plate visualization */
+.plate-visualization {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.meal-plate {
+    width: 200px;
+    height: 200px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1), inset 0 0 3px rgba(0, 0, 0, 0.05);
+    border: 2px solid #e0e0e0;
+}
+
+/* Update these styles */
+
+.plate-item {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: all 0.3s ease;
+    /* Remove the margin-left and margin-top properties and use left/top with transform instead */
+}
+
+/* Add this if you want a subtle hover effect */
+.plate-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+/* Make the plate slightly larger to accommodate the circles */
+.meal-plate {
+    width: 220px;
+    height: 220px;
+}
+
+.item-label {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+/* Items section without plates */
+.items-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.items-section li {
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.item-name {
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .meal-plate {
+        width: 180px;
+        height: 180px;
+    }
+
+    .portion-components {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .meal-plate {
+        width: 150px;
+        height: 150px;
+    }
+
+    .portion-item {
+        width: 100%;
+    }
+}
+.restaurant-dots {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.restaurant-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.restaurant-dot:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.restaurant-dot.selected {
+    background-color: #e74c3c;
+    border: 2px solid #fff;
+}
+
+.restaurant-name-tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 20;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.restaurant-dot:hover .restaurant-name-tooltip {
+    opacity: 1;
+}
+
+.restaurant-dots {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+
+    /* Change background image path to your new image */
+    background-image: url('Stevens-Campus-Map-2022-09.png');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Center the dot at its position */
+    transform: translate(-50%, -50%);
+}
+
+/* Make dots scale based on container size */
+@media screen and (min-width: 768px) {
+    .restaurant-dot {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .restaurant-dot {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.restaurant-dot:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}

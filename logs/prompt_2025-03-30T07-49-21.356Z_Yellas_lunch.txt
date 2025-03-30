@@ -1,0 +1,216 @@
+Recommend 3 meal options from Yellas for lunch considering:
+- Dietary restrictions: dairy-free
+- Dislikes: mayonnaise
+
+Available meals/ingredients:
+- undefined
+  fat calories: 35, total fat: 35 g, saturated fat: 15 g, trans fat: 0 g, cholesterol: 110 mg, sodium: mg, potassium: 208 g, total carbohydrates: 74 g, dietary fiber: 0 g, sugars: g, protein: 47 g, vitamin a: g, vitamin c: g, calcium: 323 g, iron: 7 g
+  Portion: undefined
+  Ingredients: beef patty, cheddar cheese, lettuce, tomato, pickles, red onions, special sauce, sesame seed bun
+- undefined
+  total fat: 34 g, saturated fat: 11 g, trans fat: 0 g, cholesterol: 100 mg, sodium: mg, potassium: 1092 g, total carbohydrates: 84 g, dietary fiber: 2 g, sugars: g, protein: 45 g, vitamin a: g, vitamin c: g, calcium: 272 g, iron: 7 g
+  Portion: undefined
+  Ingredients: beef patty, pepperoni, mozzarella cheese, marinara sauce, lettuce, tomato, basil, brioche bun
+- undefined
+  total fat: 36 g, saturated fat: 12 g, trans fat: 0 g, cholesterol: 100 mg, sodium: mg, potassium: 788 g, total carbohydrates: 74 g, dietary fiber: 1 g, sugars: 5 g, protein: 48 g, vitamin a: g, vitamin c: g, calcium: 282 g, iron: 6 g
+  Portion: undefined
+  Ingredients: double beef patties, American cheese, lettuce, tomato, pickles, red onions, secret sauce, sesame bun
+- undefined
+  total fat: 36 g, saturated fat: 15 g, trans fat: 0 g, cholesterol: 105 mg, sodium: mg, potassium: 808 g, total carbohydrates: 72 g, dietary fiber: 1 g, sugars: 5 g, protein: 50 g, vitamin a: g, vitamin c: g, calcium: 452 g, iron: 6 g
+  Portion: undefined
+  Ingredients: beef patty, Swiss cheese, caramelized onions, lettuce, tomato, yellow mustard, sesame bun
+- undefined
+  total fat: 30 g, saturated fat: 9 g, trans fat: 0 g, cholesterol: 160 mg, sodium: mg, potassium: 730 g, total carbohydrates: 97 g, dietary fiber: 0 g, sugars: 5 g, protein: 50 g, vitamin a: g, vitamin c: g, calcium: 245 g, iron: 6 g
+  Portion: undefined
+  Ingredients: beef patty, provolone cheese, marinara sauce, fresh basil, garlic aioli, ciabatta roll
+- undefined
+  fat calories: 26, total fat: 26 g, saturated fat: 9 g, trans fat: 0 g, cholesterol: 30 mg, sodium: mg, potassium: 818 g, total carbohydrates: 142 g, dietary fiber: 5 g, sugars: 13 g, protein: 32 g, vitamin a: g, vitamin c: g, calcium: 468 g, iron: 8 g
+  Portion: undefined
+  Ingredients: breaded eggplant, marinara sauce, mozzarella cheese, fresh basil, parmesan cheese, focaccia bread
+- undefined
+  total fat: 27 g, saturated fat: 7 g, trans fat: 0 g, cholesterol: 145 mg, sodium: mg, potassium: 579 g, total carbohydrates: 50 g, dietary fiber: 1 g, sugars: 8 g, protein: 40 g, vitamin a: g, vitamin c: g, calcium: 214 g, iron: 2 g
+  Portion: undefined
+  Ingredients: grilled chicken breast, crispy bacon, ranch dressing, lettuce, tomato, Swiss cheese, toasted bun
+- undefined
+  total fat: 25 g, saturated fat: 9 g, trans fat: 1.5 g, cholesterol: 80 mg, sodium: mg, potassium: 414 g, total carbohydrates: 28 g, dietary fiber: g, sugars: 8 g, protein: 25 g, vitamin a: g, vitamin c: g, calcium: 126 g, iron: 3 g
+  Portion: undefined
+  Ingredients: beef patty, lettuce, tomato, pickles, red onions, ketchup, mustard, mayonnaise, sesame seed bun
+- undefined
+  total fat: 27 g, saturated fat: 10 g, trans fat: 1.5 g, cholesterol: 85 mg, sodium: mg, potassium: 414 g, total carbohydrates: 28 g, dietary fiber: g, sugars: 9 g, protein: 26 g, vitamin a: g, vitamin c: g, calcium: 175 g, iron: 3 g
+  Portion: undefined
+  Ingredients: beef patty, American cheese, lettuce, tomato, pickles, ketchup, mustard, sesame bun
+- undefined
+  total fat: 32 g, saturated fat: 11 g, trans fat: 1 g, cholesterol: 85 mg, sodium: mg, potassium: 416 g, total carbohydrates: 22 g, dietary fiber: 0 g, sugars: 5 g, protein: 24 g, vitamin a: g, vitamin c: g, calcium: 199 g, iron: 3 g
+  Portion: undefined
+  Ingredients: beef patty, melted cheese, lettuce, tomato, red onions, special house sauce, toasted bun
+- undefined
+  total fat: 26 g, saturated fat: 10 g, trans fat: 1 g, cholesterol: 80 mg, sodium: mg, potassium: 351 g, total carbohydrates: 20 g, dietary fiber: 0 g, sugars: 4 g, protein: 25 g, vitamin a: g, vitamin c: g, calcium: 187 g, iron: 3 g
+  Portion: undefined
+  Ingredients: beef patty, crispy bacon, cheddar cheese, lettuce, tomato, pickles, special sauce, sesame seed bun
+- undefined
+  total fat: 35 g, saturated fat: 11 g, trans fat: 1.5 g, cholesterol: 95 mg, sodium: mg, potassium: 452 g, total carbohydrates: 27 g, dietary fiber: 1 g, sugars: 7 g, protein: 26 g, vitamin a: g, vitamin c: g, calcium: 184 g, iron: 3 g
+  Portion: undefined
+  Ingredients: smashed beef patty, American cheese, lettuce, tomato, red onions, pickles, secret sauce, brioche bun
+- undefined
+  total fat: 36 g, saturated fat: 15 g, trans fat: 1.5 g, cholesterol: 110 mg, sodium: mg, potassium: 484 g, total carbohydrates: 57 g, dietary fiber: 0 g, sugars: 14 g, protein: 36 g, vitamin a: g, vitamin c: g, calcium: 331 g, iron: 5 g
+  Portion: undefined
+  Ingredients: beef patty, smoked bacon, cheddar cheese, BBQ sauce, crispy onions, lettuce, tomato, sesame bun
+- undefined
+  total fat: 17 g, saturated fat: 3 g, trans fat: 0 g, cholesterol: 135 mg, sodium: mg, potassium: 513 g, total carbohydrates: 47 g, dietary fiber: 0 g, sugars: 6 g, protein: 34 g, vitamin a: g, vitamin c: g, calcium: 119 g, iron: 2 g
+  Portion: undefined
+  Ingredients: crispy fried chicken breast, lettuce, tomato, mayonnaise, pickles, toasted bun
+- undefined
+  total fat: 22 g, saturated fat: 4 g, trans fat: 0 g, cholesterol: 130 mg, sodium: mg, potassium: 492 g, total carbohydrates: 48 g, dietary fiber: 0 g, sugars: 7 g, protein: 34 g, vitamin a: g, vitamin c: g, calcium: 103 g, iron: 2 g
+  Portion: undefined
+  Ingredients: spicy buffalo chicken breast, blue cheese dressing, lettuce, tomato, sesame seed bun
+- undefined
+  total fat: 40 g, saturated fat: 5 g, trans fat: 0 g, cholesterol: 130 mg, sodium: mg, potassium: g, total carbohydrates: 473 g, dietary fiber: 0 g, sugars: 11 g, protein: 35 g, vitamin a: g, vitamin c: g, calcium: 146 g, iron: 2 g
+  Portion: undefined
+  Ingredients: spicy fried chicken, pickles, coleslaw, hot sauce, toasted bun
+- undefined
+  total fat: 24 g, saturated fat: 3 g, trans fat: 0 g, cholesterol: 75 mg, sodium: mg, potassium: 509 g, total carbohydrates: 26 g, dietary fiber: 1 g, sugars: 6 g, protein: 27 g, vitamin a: g, vitamin c: g, calcium: 99 g, iron: 2 g
+  Portion: undefined
+  Ingredients: grilled chicken breast, lettuce, tomato, red onions, light mayonnaise, whole grain bun
+- undefined
+  total fat: 8 g, saturated fat: 2 g, trans fat: 0 g, cholesterol: 205 mg, sodium: mg, potassium: 597 g, total carbohydrates: 37 g, dietary fiber: 0 g, sugars: 1 g, protein: 46 g, vitamin a: g, vitamin c: g, calcium: 22 g, iron: 1 g
+  Portion: undefined
+  Ingredients: breaded chicken tenders, seasoning, dipping sauces (ranch, BBQ, honey mustard)
+- undefined
+  fat calories: 30, total fat: 0 g, saturated fat: 14 g, trans fat: 0 g, cholesterol: 105 mg, sodium: mg, potassium: 170 g, total carbohydrates: 71 g, dietary fiber: g, sugars: 4 g, protein: 45 g, vitamin a: g, vitamin c: g, calcium: 392 g, iron: 6 g
+  Portion: undefined
+  Ingredients: Italian cold cuts (ham, salami, pepperoni), provolone cheese, lettuce, tomato, red onions, banana peppers, Italian dressing, sub roll
+- undefined
+  fat calories: 67, total fat: 67 g, saturated fat: 25 g, trans fat: 0 g, cholesterol: 160 mg, sodium: mg, potassium: 306 g, total carbohydrates: 76 g, dietary fiber: 0 g, sugars: g, protein: 44 g, vitamin a: g, vitamin c: g, calcium: 332 g, iron: 6 g
+  Portion: undefined
+  Ingredients: roast beef, turkey, ham, provolone cheese, lettuce, tomato, mayonnaise, Italian seasoning, sub roll
+- undefined
+  total fat: 23 g, saturated fat: 11 g, trans fat: 0 g, cholesterol: 100 mg, sodium: mg, potassium: 111 g, total carbohydrates: 71 g, dietary fiber: g, sugars: g, protein: 44 g, vitamin a: g, vitamin c: g, calcium: 460 g, iron: 6 g
+  Portion: undefined
+  Ingredients: spicy turkey, ham, jalapeños, pepper jack cheese, lettuce, tomato, chipotle mayo, sub roll
+- undefined
+  total fat: 45 g, saturated fat: 13 g, trans fat: g, cholesterol: 120 mg, sodium: mg, potassium: 141 g, total carbohydrates: 70 g, dietary fiber: g, sugars: g, protein: 57 g, vitamin a: g, vitamin c: g, calcium: 432 g, iron: 7 g
+  Portion: undefined
+  Ingredients: sliced turkey, crispy bacon, lettuce, tomato, mayonnaise, whole grain sub roll
+- undefined
+  total fat: 39 g, saturated fat: 11 g, trans fat: g, cholesterol: 115 mg, sodium: mg, potassium: 111 g, total carbohydrates: 71 g, dietary fiber: g, sugars: g, protein: 54 g, vitamin a: g, vitamin c: g, calcium: 461 g, iron: 7 g
+  Portion: undefined
+  Ingredients: oven-roasted turkey, Swiss cheese, lettuce, tomato, cranberry sauce, mayonnaise, sub roll
+- undefined
+  total fat: 38 g, saturated fat: 22 g, trans fat: 0 g, cholesterol: 145 mg, sodium: mg, potassium: 0 g, total carbohydrates: 79 g, dietary fiber: 0 g, sugars: 9 g, protein: 13 g, vitamin a: g, vitamin c: g, calcium: g, iron: g
+  Portion: undefined
+  Ingredients: vanilla ice cream, milk, vanilla syrup
+- undefined
+  total fat: 38 g, saturated fat: 22 g, trans fat: 0 g, cholesterol: 1 mg, sodium: mg, potassium: 90 g, total carbohydrates: 79 g, dietary fiber: 0 g, sugars: 29 g, protein: 13 g, vitamin a: g, vitamin c: g, calcium: 6 g, iron: 3 g
+  Portion: undefined
+  Ingredients: chocolate ice cream, milk, chocolate syrup
+- undefined
+  total fat: 38 g, saturated fat: 22 g, trans fat: 0 g, cholesterol: 145 mg, sodium: mg, potassium: 0 g, total carbohydrates: 100 g, dietary fiber: 0 g, sugars: 26 g, protein: 13 g, vitamin a: g, vitamin c: g, calcium: 0 g, iron: 0 g
+  Portion: undefined
+  Ingredients: strawberry ice cream, fresh strawberries, milk, strawberry syrup
+- undefined
+  total fat: 40 g, saturated fat: 23 g, trans fat: 0 g, cholesterol: 150 mg, sodium: mg, potassium: 0 g, total carbohydrates: 112 g, dietary fiber: 0 g, sugars: 34 g, protein: 13 g, vitamin a: g, vitamin c: g, calcium: g, iron: g
+  Portion: undefined
+  Ingredients: vanilla ice cream, milk, caramel sauce
+- undefined
+  total fat: 8 g, saturated fat: 0 g, trans fat: 0 g, cholesterol: 0 mg, sodium: mg, potassium: 578 g, total carbohydrates: 46 g, dietary fiber: g, sugars: 2 g, protein: 2 g, vitamin a: g, vitamin c: g, calcium: 23 g, iron: 1 g
+  Portion: undefined
+  Ingredients: potatoes, oil, salt
+- undefined
+  total fat: 10 g, saturated fat: 1 g, trans fat: 0 g, cholesterol: 0 mg, sodium: mg, potassium: 450 g, total carbohydrates: 38 g, dietary fiber: g, sugars: 8 g, protein: 2 g, vitamin a: g, vitamin c: g, calcium: 33 g, iron: 1 g
+  Portion: undefined
+  Ingredients: sweet potatoes, oil, salt, spices
+- undefined
+  total fat: 1 g, saturated fat: 0 g, trans fat: 0 g, cholesterol: 0 mg, sodium: mg, potassium: 161 g, total carbohydrates: 50 g, dietary fiber: g, sugars: 0 g, protein: 5 g, vitamin a: g, vitamin c: g, calcium: 36 g, iron: 5 g
+  Portion: undefined
+  Ingredients: onions, batter (flour, spices), oil, salt
+- undefined
+  total fat: 15 g, saturated fat: 6 g, trans fat: 0 g, cholesterol: 280 mg, sodium: mg, potassium: 92 g, total carbohydrates: 25 g, dietary fiber: g, sugars: 6 g, protein: 16 g, vitamin a: g, vitamin c: g, calcium: 170 g, iron: 3 g
+  Portion: undefined
+  Ingredients: eggs, American cheese, butter, English muffin
+- undefined
+  total fat: 16 g, saturated fat: 6 g, trans fat: 0 g, cholesterol: 285 mg, sodium: mg, potassium: 92 g, total carbohydrates: 25 g, dietary fiber: g, sugars: 6 g, protein: 18 g, vitamin a: g, vitamin c: g, calcium: 170 g, iron: 3 g
+  Portion: undefined
+  Ingredients: eggs, crispy bacon, American cheese, butter, English muffin
+- undefined
+  total fat: 36 g, saturated fat: 14 g, trans fat: 0 g, cholesterol: 330 mg, sodium: mg, potassium: 92 g, total carbohydrates: 25 g, dietary fiber: g, sugars: 6 g, protein: 24 g, vitamin a: g, vitamin c: g, calcium: 170 g, iron: 3 g
+  Portion: undefined
+  Ingredients: sausage patty, eggs, American cheese, butter, English muffin
+- undefined
+  total fat: 16 g, saturated fat: 6 g, trans fat: 0 g, cholesterol: 295 mg, sodium: mg, potassium: 92 g, total carbohydrates: 26 g, dietary fiber: g, sugars: 2 g, protein: 23 g, vitamin a: g, vitamin c: g, calcium: 170 g, iron: 3 g
+  Portion: undefined
+  Ingredients: ham, eggs, American cheese, butter, English muffin
+
+Use only items featured in the restuarants items. Do not use items that are not listed.
+Users need between 1,600 and 2,400 calories a day. For each meal option, consider the Calories: Aim for a meal with approximately 500-800 calories.
+If the restaurant is pierce do not have the user assemble too much of their meal. Rather combine multiple substantial sources. Exeptions for things like burgers or sandwhiches were ingredents are only
+The meals should each be pretty different offering a  healthy, medium healthy, and comfort/cheat meal but don't label them.
+- **Tu Taco:** Offers burritos, bowls, and quesadillas with various fillings. You can combine fillings (e.g., rice, beans, veggies) into a single burrito bowl.
+- **Yella's:** Offers a variety of burgers and subs. You can combine these (e.g., a sub with a side of sweet potato fries) to create a meal.
+When finding the total macros per meal add the amcros very carefully and check youre math.
+
+Prioritize:
+1. Matching dietary needs
+2. Avoiding disliked ingredients
+3. Meal type appropriateness
+
+Return ONLY a JSON object with this structure:
+{
+  "meals": [
+    {
+      "name": "Meal Option 1",
+      "description": "Description of the meal",
+      "items": ["Item 1", "Item 2"],
+      "itemsservingsize": ["Item 1: Serving Size", "Item 2: Serving Size"],
+      "macros": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      }
+    },
+    // repeat for all 3 meal options
+  ]
+}
+
+----- RESPONSE -----
+
+{
+  "meals": [
+    {
+      "name": "Meal Option 1",
+      "description": "A hearty burger with a side of sweet potato fries for a balanced meal.",
+      "items": ["Beef Patty with Lettuce, Tomato, Pickles, Red Onions, Ketchup, Mustard, Sesame Seed Bun", "Sweet Potato Fries"],
+      "itemsservingsize": ["Beef Patty with Lettuce, Tomato, Pickles, Red Onions, Ketchup, Mustard, Sesame Seed Bun: 1 serving", "Sweet Potato Fries: 1 serving"],
+      "macros": {
+        "calories": 569,
+        "protein": 50,
+        "carbs": 41,
+        "fat": 27
+      }
+    },
+    {
+      "name": "Meal Option 2",
+      "description": "A lighter option featuring a grilled chicken breast with fresh toppings and a side.",
+      "items": ["Grilled Chicken Breast with Lettuce, Tomato, Red Onions", "Side of Sweet Potato Fries"],
+      "itemsservingsize": ["Grilled Chicken Breast with Lettuce, Tomato, Red Onions: 1 serving", "Sweet Potato Fries: 1 serving"],
+      "macros": {
+        "calories": 470,
+        "protein": 34,
+        "carbs": 38,
+        "fat": 16
+      }
+    },
+    {
+      "name": "Meal Option 3",
+      "description": "A classic burger with a twist, served with crispy sweet potato fries for a satisfying meal.",
+      "items": ["Double Beef Patties with Lettuce, Tomato, Pickles, Red Onions, Secret Sauce, Sesame Bun", "Sweet Potato Fries"],
+      "itemsservingsize": ["Double Beef Patties with Lettuce, Tomato, Pickles, Red Onions, Secret Sauce, Sesame Bun: 1 serving", "Sweet Potato Fries: 1 serving"],
+      "macros": {
+        "calories": 736,
+        "protein": 48,
+        "carbs": 74,
+        "fat": 36
+      }
+    }
+  ]
+}

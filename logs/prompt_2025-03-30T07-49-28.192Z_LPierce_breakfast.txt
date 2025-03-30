@@ -1,0 +1,477 @@
+Recommend 3 meal options from LPierce for breakfast considering:
+- Dietary restrictions: dairy-free
+- Dislikes: mayonnaise
+
+Available meals/ingredients:
+- Grilled Chicken Breast
+  calories: 140, protein g: 22, total carbohydrates g: 0, sugar g: 0, total fat g: 5, saturated fat g: 0.5, cholesterol mg: 70, dietary fiber g: 0, sodium mg: 400, potassium mg: 330, calcium mg: 10, iron mg: 0.5, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 50, vitamin a re: 5+, saturated fat + trans fat g: 0
+  Portion: 4 ounce
+  Ingredients: Canola Oil, Salt, Black Pepper
+- Ground Turkey Filling
+  calories: 340, protein g: 31, total carbohydrates g: 13, sugar g: less than 1 gram, total fat g: 19, saturated fat g: 4.5, cholesterol mg: 115, dietary fiber g: 3, sodium mg: 790, potassium mg: 530, calcium mg: 120, iron mg: 5.3, trans fat g: -, vitamin d iu: 10, vitamin c mg: 2, calories from fat: 170, vitamin a re: -, saturated fat + trans fat g: 5+
+  Portion: 4 oz portion
+  Ingredients: Garlic, Onion, Ground Paprika, Cumin, Kosher Salt, Black Pepper, Canola Oil
+- Taco Bowl
+  calories: 0, protein g: 0, total carbohydrates g: 0, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 0, vitamin a re: 0, saturated fat + trans fat g: 0
+  Portion: 1 plate
+  Ingredients: None
+- Cilantro Lime Brown Rice
+  calories: 140, protein g: 3, total carbohydrates g: 29, sugar g: 0, total fat g: 1, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 2, sodium mg: 0, potassium mg: 100, calcium mg: 0, iron mg: 0.6, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 10, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 4 ounce
+  Ingredients: Brown Rice, Lime, Cilantro, Salt
+- Smashed Black Beans
+  calories: 80, protein g: 4, total carbohydrates g: 12, sugar g: less than 1 gram+, total fat g: 2, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 5, sodium mg: 200, potassium mg: 240, calcium mg: 30, iron mg: 1.6, trans fat g: -, vitamin d iu: 0, vitamin c mg: 4, calories from fat: 20, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 3 ounce
+  Ingredients: Roma Tomatoes, Yellow Onions, Canola Oil, Serrano Pepper, Cumin, Garlic, Kosher Salt, Black Pepper, Oregano
+- Pico de Gallo
+  calories: 20, protein g: 0, total carbohydrates g: 2, sugar g: 1, total fat g: 1, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 90, potassium mg: 100, calcium mg: 10, iron mg: 0.1, trans fat g: -, vitamin d iu: 0, vitamin c mg: 8, calories from fat: 10, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 2 floz
+  Ingredients: Onions, Lime, Jalapeno, Olive Oil, Cilantro, Salt
+- Fresh Guacamole
+  calories: 70, protein g: less than 1 gram, total carbohydrates g: 4, sugar g: less than 1 gram, total fat g: 6, saturated fat g: 1, cholesterol mg: 0, dietary fiber g: 3, sodium mg: 40, potassium mg: 230, calcium mg: 10, iron mg: 0.3, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 7, calories from fat: 60, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/4 cup
+  Ingredients: Tomatoes, Lime, Onions, Jalapeno, Cilantro, Salt, Black Pepper
+- Chipotle Aquafaba Aioli
+  calories: 370, protein g: 0, total carbohydrates g: 2, sugar g: 1, total fat g: 41, saturated fat g: 3+, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 140, potassium mg: 0+, calcium mg: 10, iron mg: 0.2, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0+, calories from fat: 370, vitamin a re: 0+, saturated fat + trans fat g: 5+
+  Portion: 2 oz portion
+  Ingredients: Chickpea Brine, Apple Cider Vinegar, Chipotle Peppers, Sugar, Kosher Salt, Mustard
+- Basmati Rice
+  calories: 150, protein g: 3, total carbohydrates g: 32, sugar g: 0+, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 30, calcium mg: 0, iron mg: 1.7, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 0, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 4 ounce
+  Ingredients: Basmati Rice, Salt
+- Cheese Pizza
+  calories: 220, protein g: 9, total carbohydrates g: 30, sugar g: 2+, total fat g: 7, saturated fat g: 2, cholesterol mg: 10, dietary fiber g: 1, sodium mg: 480, potassium mg: 110, calcium mg: 110, iron mg: 2.1, trans fat g: -, vitamin d iu: 0, vitamin c mg: 1+, calories from fat: 70, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 1 slice
+  Ingredients: Water, Part Skim Mozzarella Cheese, Tomatoes, Canola Oil, Salt, Sugar, Parmesan Cheese, Kosher Salt, Active Yeast, Garlic, Garlic, Basil, Black Pepper, Basil, Parsley, Oregano, Red Pepper
+- Vegetable Pizza
+  calories: 210, protein g: 9, total carbohydrates g: 26, sugar g: 3, total fat g: 7, saturated fat g: 2.5, cholesterol mg: 10, dietary fiber g: 1, sodium mg: 460, potassium mg: 130, calcium mg: 140, iron mg: 1.8, trans fat g: -, vitamin d iu: 5, vitamin c mg: 6+, calories from fat: 70, vitamin a re: 0+, saturated fat + trans fat g: 5+
+  Portion: 1 slice
+  Ingredients: Part Skim Mozzarella Cheese, Water, Tomatoes, Green Bell Peppers, Red Onions, Mushrooms, Canola Oil, Salt, Sugar, Kosher Salt, Active Yeast, Basil, Garlic, Black Pepper
+- Pepperoni Pizza
+  calories: 440, protein g: 19, total carbohydrates g: 45, sugar g: 3, total fat g: 20, saturated fat g: 8, cholesterol mg: 40, dietary fiber g: 2, sodium mg: 1230, potassium mg: 260, calcium mg: 240, iron mg: 3.4, trans fat g: 0.5, vitamin d iu: 15, vitamin c mg: 2, calories from fat: 180, vitamin a re: 0+, saturated fat + trans fat g: 10
+  Portion: 1 slice
+  Ingredients: Tomatoes, Pepperoni-, Parmesan Cheese, Part Skim Mozzarella Cheese, Canola Oil, Kosher Salt, Basil, Garlic, Black Pepper
+- Sausage & Pepper Calzone
+  calories: 1090, protein g: 50, total carbohydrates g: 80, sugar g: 6+, total fat g: 63, saturated fat g: 21, cholesterol mg: 165, dietary fiber g: 3, sodium mg: 2030, potassium mg: 720, calcium mg: 470, iron mg: 6.6, trans fat g: 0.5+, vitamin d iu: 60+, vitamin c mg: 11, calories from fat: 560, vitamin a re: 0+, saturated fat + trans fat g: 20+
+  Portion: 1 each
+  Ingredients: Italian Sausage, Part Skim Ricotta Cheese, Part Skim Mozzarella Cheese, Canola Oil, Green Bell Peppers, Yellow Onions, Parmesan Cheese, Liquid Egg, Butter, Cooking Spray^, Garlic, Water, Garlic, Red Pepper, Oregano, Black Pepper
+- Thinly Sliced Smoked Ham
+  calories: 110, protein g: 15, total carbohydrates g: 1, sugar g: 1, total fat g: 4.5, saturated fat g: 1.5, cholesterol mg: 45, dietary fiber g: 0, sodium mg: 1000, potassium mg: 270, calcium mg: 10, iron mg: 0.7, trans fat g: 0, vitamin d iu: 25, vitamin c mg: 0, calories from fat: 40, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: None
+- Thinly Sliced Deli Turkey Breast
+  calories: 90, protein g: 11, total carbohydrates g: 3, sugar g: less than 1 gram, total fat g: 3.5, saturated fat g: 1, cholesterol mg: 40, dietary fiber g: 0, sodium mg: 770, potassium mg: 120, calcium mg: 10, iron mg: 0.7, trans fat g: 0, vitamin d iu: 5, vitamin c mg: 0, calories from fat: 30, vitamin a re: 0, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: None
+- Sliced Genoa Salami
+  calories: 350, protein g: 15, total carbohydrates g: 0, sugar g: 0, total fat g: 32, saturated fat g: 12, cholesterol mg: 85, dietary fiber g: 0, sodium mg: 1430, potassium mg: -, calcium mg: 0, iron mg: 1.1, trans fat g: 0, vitamin d iu: -, vitamin c mg: 21, calories from fat: 290, vitamin a re: -, saturated fat + trans fat g: 10
+  Portion: 3 ounce
+  Ingredients: None
+- American Cheese Slice
+  calories: 100, protein g: 5, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 9, saturated fat g: 5, cholesterol mg: 30, dietary fiber g: 0, sodium mg: 470, potassium mg: 40, calcium mg: 300, iron mg: 0.2, trans fat g: 0, vitamin d iu: 90, vitamin c mg: 0, calories from fat: 80, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 2 slice
+  Ingredients: None
+- Sliced Pepper Jack Cheese
+  calories: 210, protein g: 14, total carbohydrates g: 0, sugar g: 0, total fat g: 17, saturated fat g: 11, cholesterol mg: 50, dietary fiber g: 0, sodium mg: 340, potassium mg: 50, calcium mg: 420, iron mg: 0.4, trans fat g: -, vitamin d iu: 10, vitamin c mg: 0, calories from fat: 150, vitamin a re: -, saturated fat + trans fat g: 10+
+  Portion: 2 ounce
+  Ingredients: None
+- Cheddar Cheese Slice
+  calories: 110, protein g: 6, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 9, saturated fat g: 5, cholesterol mg: 30, dietary fiber g: 0, sodium mg: 190, potassium mg: 20, calcium mg: 200, iron mg: 0, trans fat g: -, vitamin d iu: 5, vitamin c mg: 0, calories from fat: 80, vitamin a re: -, saturated fat + trans fat g: 5+
+  Portion: 2 slice
+  Ingredients: None
+- Sliced Provolone Cheese
+  calories: 100, protein g: 7, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 8, saturated fat g: 5, cholesterol mg: 20, dietary fiber g: 0, sodium mg: 210, potassium mg: 40, calcium mg: 210, iron mg: 0.1, trans fat g: -, vitamin d iu: 5, vitamin c mg: 0, calories from fat: 70, vitamin a re: -, saturated fat + trans fat g: 5+
+  Portion: 2 slice
+  Ingredients: None
+- Lettuce Leaf
+  calories: 0, protein g: 0, total carbohydrates g: 0, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 10, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 each
+  Ingredients: None
+- Sliced Tomatoes
+  calories: 0, protein g: 0, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 60, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 4, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 2 slice
+  Ingredients: None
+- Dill Pickle Slices
+  calories: 0, protein g: 0, total carbohydrates g: 0, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 115, potassium mg: 20, calcium mg: 10, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 2 each
+  Ingredients: None
+- Sliced Red Onion
+  calories: 5, protein g: 0, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 20, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 slice
+  Ingredients: None
+- Classic Hummus
+  calories: 100, protein g: 5, total carbohydrates g: 13, sugar g: 2, total fat g: 3.5, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 4, sodium mg: 150, potassium mg: 150, calcium mg: 40, iron mg: 1.8, trans fat g: -, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 30, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 2 ounce
+  Ingredients: Water, Sesame Tahini Paste, Lemon Juice, Cumin, Garlic, Kosher Salt
+- FIT Tuna Salad
+  calories: 130, protein g: 12, total carbohydrates g: 1, sugar g: 0, total fat g: 8, saturated fat g: 1, cholesterol mg: 25, dietary fiber g: 0, sodium mg: 360, potassium mg: 140, calcium mg: 10, iron mg: 1.1, trans fat g: 0, vitamin d iu: 30, vitamin c mg: 1, calories from fat: 70, vitamin a re: 0+, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: Canola Oil, Red Onions, Celery, Lemon Juice, Light Mayonnaise, Kosher Salt, Black Pepper
+- Cubed Honeydew
+  calories: 40, protein g: less than 1 gram, total carbohydrates g: 10, sugar g: 9, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 20, potassium mg: 260, calcium mg: 10, iron mg: 0.2, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 20, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 4 ounce
+  Ingredients: None
+- Cubed Cantaloupe
+  calories: 40, protein g: less than 1 gram, total carbohydrates g: 9, sugar g: 9, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 1, sodium mg: 20, potassium mg: 300, calcium mg: 10, iron mg: 0.2, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 42, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 4 ounce
+  Ingredients: None
+- Cubed Watermelon
+  calories: 35, protein g: less than 1 gram, total carbohydrates g: 9, sugar g: 7, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 130, calcium mg: 10, iron mg: 0.3, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 9, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 4 ounce
+  Ingredients: None
+- Pink Grapefruit
+  calories: 20, protein g: 0, total carbohydrates g: 5, sugar g: 4, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 0, potassium mg: 80, calcium mg: 10, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 20, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/2 each
+  Ingredients: None
+- Low Fat Vanilla Yogurt
+  calories: 60, protein g: 2, total carbohydrates g: 11, sugar g: 8, total fat g: 0, saturated fat g: 0, cholesterol mg: less than 5 milligrams, dietary fiber g: 0, sodium mg: 30, potassium mg: 90, calcium mg: 70, iron mg: 0, trans fat g: 0, vitamin d iu: 45, vitamin c mg: -, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: None
+- Low Fat Strawberry Yogurt
+  calories: 80, protein g: 3, total carbohydrates g: 17, sugar g: 12, total fat g: 0.5, saturated fat g: 0, cholesterol mg: less than 5 milligrams, dietary fiber g: 0, sodium mg: 40, potassium mg: 130, calcium mg: 100, iron mg: 0, trans fat g: 0, vitamin d iu: 70, vitamin c mg: -, calories from fat: 5, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: None
+- Fat Free Plain Greek Yogurt
+  calories: 45, protein g: 8, total carbohydrates g: 4, sugar g: 3, total fat g: 0, saturated fat g: 0, cholesterol mg: less than 5 milligrams, dietary fiber g: 0, sodium mg: 35, potassium mg: 120, calcium mg: 100, iron mg: 0, trans fat g: 0, vitamin d iu: 20, vitamin c mg: -, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: None
+- 2% Low Fat Cottage Cheese
+  calories: 70, protein g: 9, total carbohydrates g: 4, sugar g: 3, total fat g: 2, saturated fat g: 1, cholesterol mg: 10, dietary fiber g: 0, sodium mg: 260, potassium mg: 110, calcium mg: 90, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 15, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 3 ounce
+  Ingredients: None
+- Cooked Red Quinoa
+  calories: 40, protein g: 2, total carbohydrates g: 7, sugar g: 0+, total fat g: 0.5, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 0, potassium mg: 60, calcium mg: 10, iron mg: 0.5, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0+, calories from fat: 5, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 2 ounce
+  Ingredients: Red Quinoa
+- Sunflower Seeds
+  calories: 45, protein g: 2, total carbohydrates g: 2, sugar g: 0, total fat g: 4, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 0, potassium mg: 70, calcium mg: 10, iron mg: 0.3, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 35, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 1 tbsp
+  Ingredients: None
+- Dried Cranberries
+  calories: 30, protein g: 0, total carbohydrates g: 8, sugar g: 7, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Shredded Coconut
+  calories: 25, protein g: 0, total carbohydrates g: 3, sugar g: 2, total fat g: 1.5, saturated fat g: 1.5, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 10, potassium mg: 20, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: -, calories from fat: 15, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Seasoned Croutons
+  calories: 15, protein g: less than 1 gram, total carbohydrates g: 2, sugar g: 0, total fat g: 1, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 35, potassium mg: 10, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: -, calories from fat: 5, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Oats 'n Honey Granola
+  calories: 20, protein g: 0, total carbohydrates g: 3, sugar g: 1, total fat g: 1, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 15, potassium mg: 10, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 5, vitamin a re: 0, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Chia Seeds
+  calories: 25, protein g: less than 1 gram, total carbohydrates g: 2, sugar g: -, total fat g: 1.5, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 2, sodium mg: 0, potassium mg: 20, calcium mg: 30, iron mg: 0.4, trans fat g: 0, vitamin d iu: -, vitamin c mg: 0, calories from fat: 15, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tsp
+  Ingredients: None
+- Golden Italian Dressing
+  calories: 110, protein g: 0, total carbohydrates g: 2, sugar g: 2, total fat g: 12, saturated fat g: 2, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 270, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: -, vitamin c mg: -, calories from fat: 110, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 floz
+  Ingredients: None
+- Ranch
+  calories: 140, protein g: 0, total carbohydrates g: 1, sugar g: 1, total fat g: 15, saturated fat g: 2, cholesterol mg: 10, dietary fiber g: 0, sodium mg: 190, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: -, calories from fat: 130, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 floz
+  Ingredients: None
+- Caesar Dressing
+  calories: 150, protein g: 1, total carbohydrates g: 1, sugar g: 0, total fat g: 16, saturated fat g: 2.5, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 280, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: -, vitamin c mg: -, calories from fat: 150, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 1 floz
+  Ingredients: None
+- Balsamic Vinaigrette Dressing
+  calories: 60, protein g: 0, total carbohydrates g: 5, sugar g: 4, total fat g: 5, saturated fat g: 0.5, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 210, potassium mg: 10, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 45, vitamin a re: 0, saturated fat + trans fat g: 0
+  Portion: 1 floz
+  Ingredients: None
+- French Dressing
+  calories: 120, protein g: 0, total carbohydrates g: 5, sugar g: 5, total fat g: 11, saturated fat g: 1.5, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 250, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: -, vitamin c mg: -, calories from fat: 100, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 floz
+  Ingredients: None
+- Blue Cheese Crumbles Dressing
+  calories: 160, protein g: 0, total carbohydrates g: 1, sugar g: 1, total fat g: 16, saturated fat g: 3.5, cholesterol mg: 15, dietary fiber g: 0, sodium mg: 270, potassium mg: 0, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: -, vitamin c mg: -, calories from fat: 140, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 1 floz
+  Ingredients: None
+- Chopped Romaine Lettuce
+  calories: 10, protein g: less than 1 gram, total carbohydrates g: 2, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 0, potassium mg: 120, calcium mg: 20, iron mg: 0.5, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 2, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 cup
+  Ingredients: None
+- Mixed Field Greens
+  calories: 10, protein g: less than 1 gram, total carbohydrates g: 2, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 0, potassium mg: 150, calcium mg: 20, iron mg: 0.7, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 2, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 cup
+  Ingredients: Chopped Lettuce
+- Grape Tomatoes
+  calories: 5, protein g: 0, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 90, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 5, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/4 cup
+  Ingredients: None
+- Sliced Cucumber
+  calories: 0, protein g: 0, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 40, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 ounce
+  Ingredients: None
+- Shredded Carrots
+  calories: 10, protein g: 0, total carbohydrates g: 3, sugar g: 1, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 20, potassium mg: 90, calcium mg: 10, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 2, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/4 cup
+  Ingredients: None
+- Sliced Red Onion
+  calories: 5, protein g: 0, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 20, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 slice
+  Ingredients: None
+- Sliced Green Bell Pepper
+  calories: 0, protein g: 0, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 40, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 18, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/4 cup
+  Ingredients: None
+- Hard Boiled Egg
+  calories: 70, protein g: 6, total carbohydrates g: 0, sugar g: 0, total fat g: 4.5, saturated fat g: 1.5, cholesterol mg: 165, dietary fiber g: 0, sodium mg: 55, potassium mg: 60, calcium mg: 20, iron mg: 0.5, trans fat g: 0, vitamin d iu: 40, vitamin c mg: 0, calories from fat: 40, vitamin a re: 45, saturated fat + trans fat g: 0
+  Portion: 1 each
+  Ingredients: None
+- Garbonzo Beans
+  calories: 190, protein g: 10, total carbohydrates g: 31, sugar g: 5, total fat g: 3, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 9, sodium mg: 280, potassium mg: 330, calcium mg: 60, iron mg: 3.3, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 25, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/2 cup
+  Ingredients: None
+- Black Beans
+  calories: 60, protein g: 4, total carbohydrates g: 11, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 4, sodium mg: 0, potassium mg: 200, calcium mg: 30, iron mg: 1.3, trans fat g: 0, vitamin d iu: -, vitamin c mg: 0, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1/4 cup
+  Ingredients: None
+- Bacon Bits
+  calories: 35, protein g: 2, total carbohydrates g: 0, sugar g: 0, total fat g: 2.5, saturated fat g: 1, cholesterol mg: 5, dietary fiber g: 0, sodium mg: 120, potassium mg: 30, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 20, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Sliced Grilled Chicken Breast
+  calories: 150, protein g: 23, total carbohydrates g: 0, sugar g: 0, total fat g: 7, saturated fat g: 1.5, cholesterol mg: 80, dietary fiber g: 0, sodium mg: 140, potassium mg: 260, calcium mg: 0, iron mg: 0.4, trans fat g: 0, vitamin d iu: 0+, vitamin c mg: 0, calories from fat: 60, vitamin a re: 0+, saturated fat + trans fat g: 0
+  Portion: 3 oz meat
+  Ingredients: Canola Oil, Black Pepper, Cooking Spray^
+- Shredded Cheddar Cheese
+  calories: 30, protein g: 2, total carbohydrates g: 0, sugar g: 0, total fat g: 2.5, saturated fat g: 1.5, cholesterol mg: 5, dietary fiber g: 0, sodium mg: 45, potassium mg: 10, calcium mg: 50, iron mg: 0, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 20, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 1 tbsp
+  Ingredients: None
+- Grated Parmesan Cheese
+  calories: 25, protein g: 2, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 1.5, saturated fat g: 1, cholesterol mg: 5, dietary fiber g: 0, sodium mg: 115, potassium mg: 10, calcium mg: 50, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 15, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Loaded Potato Salad
+  calories: 160, protein g: 5, total carbohydrates g: 16, sugar g: 1, total fat g: 9, saturated fat g: 2.5, cholesterol mg: 15, dietary fiber g: 1, sodium mg: 330, potassium mg: 440, calcium mg: 60, iron mg: 0.6, trans fat g: -, vitamin d iu: 5+, vitamin c mg: 10, calories from fat: 80, vitamin a re: 0+, saturated fat + trans fat g: 5+
+  Portion: 1/2 cup
+  Ingredients: Light Mayonnaise, Bacon, Low Fat Sour Cream, Cheddar Cheese, Green Onions, Canola Oil, Kosher Salt, Black Pepper, Cooking Spray^
+- Classic Chicken Noodle
+  calories: 240, protein g: 9, total carbohydrates g: 44, sugar g: 3+, total fat g: 2.5, saturated fat g: 0, cholesterol mg: 5, dietary fiber g: 4, sodium mg: 75, potassium mg: 310+, calcium mg: 50, iron mg: 2.2, trans fat g: -, vitamin d iu: 0+, vitamin c mg: 10+, calories from fat: 25, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 16 floz
+  Ingredients: Water, Chicken Bones, Rotini, Carrots, Water, Celery, Yellow Onions, Chicken Breast, Yellow Onions, Green Onions, Celery, Carrots, Parsley, No Added Salt Tomatoes, Canola Oil, Fennel, Garlic, Garlic, Celery, Mushrooms, Thyme, Thyme, Rosemary, Red Beets, Tomato Paste, Basil, Bay Leaf, Black Pepper, Extra Virgin Olive Oil, Garlic, Kosher Salt
+- Tomato Parmesan Soup
+  calories: 25, protein g: less than 1 gram, total carbohydrates g: 2, sugar g: less than 1 gram, total fat g: 2, saturated fat g: 1, cholesterol mg: 5+, dietary fiber g: 0, sodium mg: 110, potassium mg: 50, calcium mg: 30, iron mg: 0.2, trans fat g: -, vitamin d iu: 0+, vitamin c mg: 1+, calories from fat: 15, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 4 floz
+  Ingredients: Water, Tomato Puree, Whipping Cream, Yellow Onions, Parmesan Cheese, Half & Half, All Purpose Flour, Unsalted Butter, Celery, Vegetable Base, Kosher Salt, Green Onions, Red Wine Vinegar, Fresh Ground Black Pepper, Garlic, Garlic, Basil, Parsley, Granulated Onion
+- Crackers, Saltine, 2 CT, Zesta
+  calories: 25, protein g: less than 1 gram, total carbohydrates g: 5, sugar g: 0, total fat g: 0.5, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 90, potassium mg: 0, calcium mg: 0, iron mg: 0.2, trans fat g: 0, vitamin d iu: 0, vitamin c mg: -, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 each
+  Ingredients: Crackers, Saltine, 2 CT, Zesta
+×
+Calories: 25
+Protein (g): less than 1 gram
+Total Carbohydrates (g): 5
+Sugar (g): 0
+Total Fat (g): 0.5
+Saturated Fat (g): 0
+Cholesterol (mg): 0
+Dietary Fiber (g): 0
+Sodium (mg): 90
+Potassium (mg): 0
+Calcium (mg): 0
+Iron (mg): 0.2
+Trans Fat (g): 0
+Vitamin D (IU): 0
+Vitamin C (mg): -
+Calories From Fat: 0
+Vitamin A (RE): -
+Saturated Fat + Trans Fat (g): 0
+
+Enriched flour (wheat flour, niacin, reduced iron, vitamin B1 [thiamin mononitrate], vitamin B2 [riboflavin], folic acid), soybean oil (with TBHQ for freshness), salt, corn syrup. Contains 2% or less of baking soda, yeast, soy lecithin. Contains: Wheat, Soy.
+- Home Fries with Onions & Peppers
+  calories: 110, protein g: 2, total carbohydrates g: 19, sugar g: 2, total fat g: 3, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 2, sodium mg: 75, potassium mg: 340+, calcium mg: 20, iron mg: 0.7, trans fat g: 0, vitamin d iu: 0+, vitamin c mg: 31, calories from fat: 25, vitamin a re: 40+, saturated fat + trans fat g: 0
+  Portion: 1/2 cup
+  Ingredients: Green Bell Peppers, Red Bell Peppers, Yellow Onions, Canola Oil, Parsley, Salt Free 17 Seasoning, Garlic, Granulated Onion, Ground Paprika, Kosher Salt
+- Bacon
+  calories: 35, protein g: 3, total carbohydrates g: 0, sugar g: 0, total fat g: 2.5, saturated fat g: 1, cholesterol mg: 5, dietary fiber g: 0, sodium mg: 125, potassium mg: 40, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 25, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 2 slice
+  Ingredients: None
+- Latin Tofu Scramble
+  calories: 80, protein g: 5, total carbohydrates g: 4, sugar g: 1+, total fat g: 5, saturated fat g: 0.5, cholesterol mg: 0, dietary fiber g: 1, sodium mg: 330, potassium mg: 160, calcium mg: 220, iron mg: 4, trans fat g: -, vitamin d iu: 0, vitamin c mg: 13, calories from fat: 45, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 3 ounce
+  Ingredients: Green Bell Peppers, Yellow Onions, Canola Oil, Kosher Salt, Cumin, Garlic, Chili Powder, Ground Paprika, Extra Virgin Olive Oil, Fennel Seed, Cilantro, Black Pepper
+- Vegetables for Fajita
+  calories: 50, protein g: 1, total carbohydrates g: 8, sugar g: 3, total fat g: 1.5, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 2, sodium mg: 150, potassium mg: 220, calcium mg: 40, iron mg: 1.7, trans fat g: -, vitamin d iu: 0, vitamin c mg: 48, calories from fat: 15, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 3 ounce
+  Ingredients: Green Bell Peppers, Red Bell Peppers, Garlic (in water), Cumin, Canola Oil, Cilantro, Coriander, Black Pepper, Salt, Cayenne Pepper
+- Black Beans
+  calories: 90, protein g: 4, total carbohydrates g: 13, sugar g: 1, total fat g: 3, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 5, sodium mg: 220, potassium mg: 230, calcium mg: 30, iron mg: 1.4, trans fat g: -, vitamin d iu: 0, vitamin c mg: 7, calories from fat: 25, vitamin a re: 0+, saturated fat + trans fat g: 0+
+  Portion: 3 ounce
+  Ingredients: Yellow Onions, Water, Red Bell Peppers, Canola Oil, Garlic, Sugar, Kosher Salt, Cumin
+- Chorizo Sausage
+  calories: 170, protein g: 8, total carbohydrates g: 2, sugar g: 0, total fat g: 15, saturated fat g: 5, cholesterol mg: 35, dietary fiber g: 0, sodium mg: 460, potassium mg: 180, calcium mg: 10, iron mg: 0.8, trans fat g: 0, vitamin d iu: 35, vitamin c mg: 0, calories from fat: 130, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 3 ounce
+  Ingredients: None
+- 10" Flour Tortilla
+  calories: 200, protein g: 6, total carbohydrates g: 34, sugar g: 1, total fat g: 6, saturated fat g: 3, cholesterol mg: 0, dietary fiber g: 1, sodium mg: 400, potassium mg: 50, calcium mg: 80, iron mg: 2, trans fat g: 0, vitamin d iu: 0, vitamin c mg: -, calories from fat: 50, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 1 each
+  Ingredients: None
+- 6" Corn Tortilla
+  calories: 100, protein g: 3, total carbohydrates g: 21, sugar g: 0, total fat g: 1.5, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 3, sodium mg: 20, potassium mg: 90, calcium mg: 40, iron mg: 0.6, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 10, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 2 each
+  Ingredients: Water, Preservatives, Xanthan Gum, Lime)
+- Shredded Monterey Jack Cheese
+  calories: 210, protein g: 14, total carbohydrates g: 0, sugar g: 0, total fat g: 17, saturated fat g: 11, cholesterol mg: 50, dietary fiber g: 0, sodium mg: 340, potassium mg: 50, calcium mg: 420, iron mg: 0.4, trans fat g: -, vitamin d iu: 10, vitamin c mg: 0, calories from fat: 150, vitamin a re: -, saturated fat + trans fat g: 10+
+  Portion: 2 ounce
+  Ingredients: None
+- Salsa
+  calories: 10, protein g: 0, total carbohydrates g: 2, sugar g: 1, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 200, potassium mg: 80, calcium mg: 10, iron mg: 0.1, trans fat g: -, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 1 ounce
+  Ingredients: None
+- Sour Cream
+  calories: 30, protein g: 0, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 3, saturated fat g: 1.5, cholesterol mg: 10, dietary fiber g: 0, sodium mg: 0, potassium mg: 20, calcium mg: 10, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 25, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 tbsp
+  Ingredients: None
+- Eggs
+  calories: 170, protein g: 14, total carbohydrates g: 1, sugar g: 0, total fat g: 11, saturated fat g: 4, cholesterol mg: 420, dietary fiber g: 0, sodium mg: 150, potassium mg: 150, calcium mg: 70, iron mg: 2, trans fat g: 0, vitamin d iu: 120, vitamin c mg: 0, calories from fat: 100, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 4 ounce
+  Ingredients: None
+- Eggs Your Way
+  calories: 60, protein g: 6, total carbohydrates g: 0, sugar g: 0, total fat g: 4, saturated fat g: 1.5, cholesterol mg: 165, dietary fiber g: 0, sodium mg: 60, potassium mg: 60, calcium mg: 20, iron mg: 0.8, trans fat g: 0, vitamin d iu: 35, vitamin c mg: 0, calories from fat: 40, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 each
+  Ingredients: None
+- Egg Whites
+  calories: 30, protein g: 7, total carbohydrates g: 0, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 100, potassium mg: 100, calcium mg: 0, iron mg: 0, trans fat g: -, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 1/4 cup
+  Ingredients: None
+- Lettuce Leaf
+  calories: 0, protein g: 0, total carbohydrates g: 0, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 10, calcium mg: 0, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 each
+  Ingredients: None
+- Sliced Red Onion
+  calories: 5, protein g: 0, total carbohydrates g: 1, sugar g: less than 1 gram, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 0, potassium mg: 20, calcium mg: 0, iron mg: 0, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 slice
+  Ingredients: None
+- Sliced Dill Pickles
+  calories: 0, protein g: 0, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 0, saturated fat g: 0, cholesterol mg: 0, dietary fiber g: 0, sodium mg: 230, potassium mg: 30, calcium mg: 20, iron mg: 0.1, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 1, calories from fat: 0, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 1 ounce
+  Ingredients: None
+- American Cheese Slice
+  calories: 50, protein g: 3, total carbohydrates g: less than 1 gram, sugar g: 0, total fat g: 4.5, saturated fat g: 2.5, cholesterol mg: 15, dietary fiber g: 0, sodium mg: 240, potassium mg: 20, calcium mg: 150, iron mg: 0.1, trans fat g: 0, vitamin d iu: 45, vitamin c mg: 0, calories from fat: 40, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 1 slice
+  Ingredients: None
+- Sliced Mild Cheddar Cheese
+  calories: 60, protein g: 3, total carbohydrates g: 0, sugar g: 0, total fat g: 4.5, saturated fat g: 2.5, cholesterol mg: 15, dietary fiber g: 0, sodium mg: 95, potassium mg: 10, calcium mg: 100, iron mg: 0, trans fat g: -, vitamin d iu: 5, vitamin c mg: 0, calories from fat: 40, vitamin a re: -, saturated fat + trans fat g: 5+
+  Portion: 1 slice
+  Ingredients: None
+- Sliced Provolone Cheese
+  calories: 50, protein g: 4, total carbohydrates g: 0, sugar g: 0, total fat g: 4, saturated fat g: 2.5, cholesterol mg: 10, dietary fiber g: 0, sodium mg: 105, potassium mg: 20, calcium mg: 110, iron mg: 0.1, trans fat g: -, vitamin d iu: 5, vitamin c mg: 0, calories from fat: 35, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 1/2 ounce
+  Ingredients: None
+- Black Bean Burger
+  calories: 220, protein g: 15, total carbohydrates g: 35, sugar g: 4, total fat g: 6, saturated fat g: 1, cholesterol mg: 0, dietary fiber g: 7, sodium mg: 530, potassium mg: 440, calcium mg: 110, iron mg: 2.6, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 3+, calories from fat: 50, vitamin a re: 0+, saturated fat + trans fat g: 0
+  Portion: 5 ounce
+  Ingredients: 100% Whole Wheat Sandwich Thins, Tomatoes, Leaf Lettuce
+- Grilled Chicken
+  calories: 160, protein g: 32, total carbohydrates g: 0, sugar g: 0, total fat g: 4, saturated fat g: 1.5, cholesterol mg: 110, dietary fiber g: 0, sodium mg: 200, potassium mg: 350, calcium mg: 10, iron mg: 0.5, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 35, vitamin a re: -, saturated fat + trans fat g: 0
+  Portion: 4 ounce
+  Ingredients: None
+- Hamburger Patty
+  calories: 170, protein g: 16, total carbohydrates g: 0, sugar g: 0, total fat g: 11, saturated fat g: 4, cholesterol mg: 55, dietary fiber g: 0, sodium mg: 45, potassium mg: 190, calcium mg: 10, iron mg: 1.5, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 0, calories from fat: 100, vitamin a re: -, saturated fat + trans fat g: 5
+  Portion: 1 each
+  Ingredients: None
+- Hot Dog
+  calories: 470, protein g: 16, total carbohydrates g: 22, sugar g: 3, total fat g: 34, saturated fat g: 13, cholesterol mg: 65, dietary fiber g: less than 1 gram, sodium mg: 1130, potassium mg: 320, calcium mg: 40, iron mg: 2.7, trans fat g: -, vitamin d iu: 45, vitamin c mg: -, calories from fat: 310, vitamin a re: -, saturated fat + trans fat g: 15+
+  Portion: 1 each
+  Ingredients: Hot Dog Bun
+- French Fries
+  calories: 90, protein g: less than 1 gram, total carbohydrates g: 11, sugar g: 0, total fat g: 6, saturated fat g: 0.5, cholesterol mg: 0, dietary fiber g: less than 1 gram, sodium mg: 190, potassium mg: 170, calcium mg: 10, iron mg: 0.2, trans fat g: 0, vitamin d iu: 0+, vitamin c mg: 0+, calories from fat: 50, vitamin a re: -, saturated fat + trans fat g: 0+
+  Portion: 2 ounce
+  Ingredients: Salt
+- Philly Cheese Steak
+  calories: 440, protein g: 34, total carbohydrates g: 39, sugar g: 2, total fat g: 15, saturated fat g: 6, cholesterol mg: 85, dietary fiber g: 3, sodium mg: 880, potassium mg: 470, calcium mg: 240, iron mg: 3.7, trans fat g: -, vitamin d iu: 45+, vitamin c mg: 2, calories from fat: 130, vitamin a re: 0+, saturated fat + trans fat g: 5+
+  Portion: 1 sandwich
+  Ingredients: Hoagie Roll, Yellow Onions, American Cheese, Worcestershire Sauce with Anchovies, Salt, Cooking Spray^, Black Pepper
+- Chicken Nuggets
+  calories: 250, protein g: 13, total carbohydrates g: 16, sugar g: 0, total fat g: 15, saturated fat g: 2, cholesterol mg: 40, dietary fiber g: 0, sodium mg: 430, potassium mg: 190, calcium mg: 10, iron mg: 0.4, trans fat g: 0, vitamin d iu: 0+, vitamin c mg: 1, calories from fat: 130, vitamin a re: 5+, saturated fat + trans fat g: 0+
+  Portion: 4 each
+  Ingredients: None
+- Fried Onion Rings
+  calories: 460, protein g: 3, total carbohydrates g: 37, sugar g: 4, total fat g: 32, saturated fat g: 3.5, cholesterol mg: 0, dietary fiber g: 2, sodium mg: 490, potassium mg: 110, calcium mg: 20, iron mg: 2.5, trans fat g: 0, vitamin d iu: 0, vitamin c mg: 4, calories from fat: 290, vitamin a re: -, saturated fat + trans fat g: 5+
+  Portion: 4 ounce
+  Ingredients: Salt
+- Macaroni & Cheese
+  calories: 190, protein g: 7, total carbohydrates g: 20, sugar g: 3+, total fat g: 9, saturated fat g: 5, cholesterol mg: 25, dietary fiber g: less than 1 gram, sodium mg: 400, potassium mg: 100, calcium mg: 180, iron mg: 0.8, trans fat g: -, vitamin d iu: 50, vitamin c mg: 0, calories from fat: 80, vitamin a re: 0+, saturated fat + trans fat g: 5+
+  Portion: 4 ounce
+  Ingredients: Elbow Macaroni, Whole Milk, American Cheese, Butter, Sharp Cheddar Cheese, All Purpose Flour, Kosher Salt, Salt, White Pepper
+
+Use only items featured in the restuarants items. Do not use items that are not listed.
+Users need between 1,600 and 2,400 calories a day. For each meal option, consider the Calories: Aim for a meal with approximately 500-800 calories.
+If the restaurant is pierce do not have the user assemble too much of their meal. Rather combine multiple substantial sources. Exeptions for things like burgers or sandwhiches were ingredents are only
+The meals should each be pretty different offering a  healthy, medium healthy, and comfort/cheat meal but don't label them.
+- **Tu Taco:** Offers burritos, bowls, and quesadillas with various fillings. You can combine fillings (e.g., rice, beans, veggies) into a single burrito bowl.
+- **Yella's:** Offers a variety of burgers and subs. You can combine these (e.g., a sub with a side of sweet potato fries) to create a meal.
+When finding the total macros per meal add the amcros very carefully and check youre math.
+
+Prioritize:
+1. Matching dietary needs
+2. Avoiding disliked ingredients
+3. Meal type appropriateness
+
+Return ONLY a JSON object with this structure:
+{
+  "meals": [
+    {
+      "name": "Meal Option 1",
+      "description": "Description of the meal",
+      "items": ["Item 1", "Item 2"],
+      "itemsservingsize": ["Item 1: Serving Size", "Item 2: Serving Size"],
+      "macros": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      }
+    },
+    // repeat for all 3 meal options
+  ]
+}
+
+----- RESPONSE -----
+
+{
+  "meals": [
+    {
+      "name": "Chicken and Rice Bowl",
+      "description": "A hearty bowl featuring grilled chicken breast served over cilantro lime brown rice with a side of smashed black beans.",
+      "items": ["Grilled Chicken Breast", "Cilantro Lime Brown Rice", "Smashed Black Beans"],
+      "itemsservingsize": ["Grilled Chicken Breast: 4 oz", "Cilantro Lime Brown Rice: 4 oz", "Smashed Black Beans: 3 oz"],
+      "macros": {
+        "calories": 360,
+        "protein": 29,
+        "carbs": 41,
+        "fat": 9
+      }
+    },
+    {
+      "name": "Tofu Scramble with Home Fries",
+      "description": "A delicious Latin tofu scramble served with home fries, featuring peppers and onions for added flavor.",
+      "items": ["Latin Tofu Scramble", "Home Fries with Onions & Peppers"],
+      "itemsservingsize": ["Latin Tofu Scramble: 3 oz", "Home Fries with Onions & Peppers: 1/2 cup"],
+      "macros": {
+        "calories": 190,
+        "protein": 6,
+        "carbs": 19,
+        "fat": 6.5
+      }
+    },
+    {
+      "name": "Breakfast Burrito Bowl",
+      "description": "A comforting breakfast bowl with ground turkey filling, cilantro lime brown rice, and topped with pico de gallo.",
+      "items": ["Ground Turkey Filling", "Cilantro Lime Brown Rice", "Pico de Gallo"],
+      "itemsservingsize": ["Ground Turkey Filling: 4 oz", "Cilantro Lime Brown Rice: 4 oz", "Pico de Gallo: 2 oz"],
+      "macros": {
+        "calories": 500,
+        "protein": 34,
+        "carbs": 42,
+        "fat": 20
+      }
+    }
+  ]
+}
