@@ -1,6 +1,6 @@
 [
   {
-    "title": "Fire Braised Beef Barbacoa",
+    "name": "Fire Braised Beef Barbacoa",
     "nutrition": {
       "calories": "90",
       "protein_(g)": "11",
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "title": "Chicken Tinga",
+    "name": "Chicken Tinga",
     "nutrition": {
       "calories": "120",
       "protein_(g)": "13",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "title": "Slow Roasted Pork Carnitas",
+    "name": "Slow Roasted Pork Carnitas",
     "nutrition": {
       "calories": "220",
       "protein_(g)": "23",
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "title": "Chimichurri Charred Cauliflower",
+    "name": "Chimichurri Charred Cauliflower",
     "nutrition": {
       "calories": "40",
       "protein_(g)": "2",
@@ -146,7 +146,7 @@
     ]
   },
   {
-    "title": "cilantro lime rice",
+    "name": "cilantro lime rice",
     "nutrition": {
       "calories": "170",
       "protein_(g)": "3",
@@ -176,7 +176,7 @@
     ]
   },
   {
-    "title": "Steamed Brown Rice",
+    "name": "Steamed Brown Rice",
     "nutrition": {
       "calories": "230",
       "protein_(g)": "5",
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "title": "Vegan Refried Beans",
+    "name": "Vegan Refried Beans",
     "nutrition": {
       "calories": "45",
       "protein_(g)": "3",
@@ -232,7 +232,7 @@
     ]
   },
   {
-    "title": "Spicy Black Beans",
+    "name": "Spicy Black Beans",
     "nutrition": {
       "calories": "130",
       "protein_(g)": "8",
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "title": "Mojo Aoili",
+    "name": "Mojo Aoili",
     "nutrition": {
       "calories": "150",
       "protein_(g)": "0",
@@ -304,7 +304,7 @@
     ]
   },
   {
-    "title": "Shredded Iceberg Lettuce",
+    "name": "Shredded Iceberg Lettuce",
     "nutrition": {
       "calories": "10",
       "protein_(g)": "less than 1 gram",
@@ -330,7 +330,7 @@
     ]
   },
   {
-    "title": "Sliced Jalapeno Pepper",
+    "name": "Sliced Jalapeno Pepper",
     "nutrition": {
       "calories": "0",
       "protein_(g)": "0",
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "title": "Creamy Guacamole",
+    "name": "Creamy Guacamole",
     "nutrition": {
       "calories": "40",
       "protein_(g)": "less than 1 gram",
@@ -387,7 +387,7 @@
     ]
   },
   {
-    "title": "Crispy Tortilla Chips",
+    "name": "Crispy Tortilla Chips",
     "nutrition": {
       "calories": "230",
       "protein_(g)": "4",
@@ -418,7 +418,7 @@
     ]
   },
   {
-    "title": "Queso",
+    "name": "Queso",
     "nutrition": {
       "calories": "370",
       "protein_(g)": "22",
@@ -452,7 +452,7 @@
     ]
   },
   {
-    "title": "Pico de Gallo",
+    "name": "Pico de Gallo",
     "nutrition": {
       "calories": "5",
       "protein_(g)": "0",
@@ -483,7 +483,7 @@
     ]
   },
   {
-    "title": "Diced Tomatoes",
+    "name": "Diced Tomatoes",
     "nutrition": {
       "calories": "10",
       "protein_(g)": "0",
@@ -509,7 +509,7 @@
     ]
   },
   {
-    "title": "Garlic Cilantro Aioli",
+    "name": "Garlic Cilantro Aioli",
     "nutrition": {
       "calories": "330",
       "protein_(g)": "less than 1 gram",
@@ -539,7 +539,7 @@
     ]
   },
   {
-    "title": "Spicy Mayo Dip",
+    "name": "Spicy Mayo Dip",
     "nutrition": {
       "calories": "380",
       "protein_(g)": "less than 1 gram",
@@ -568,7 +568,7 @@
     ]
   },
   {
-    "title": "LIme Crema",
+    "name": "LIme Crema",
     "nutrition": {
       "calories": "25",
       "protein_(g)": "0",
@@ -597,7 +597,7 @@
     ]
   },
   {
-    "title": "Cotija Cheese",
+    "name": "Cotija Cheese",
     "nutrition": {
       "calories": "60",
       "protein_(g)": "3",
@@ -623,7 +623,7 @@
     ]
   },
   {
-    "title": "Corn Taco Shell",
+    "name": "Corn Taco Shell",
     "nutrition": {
       "calories": "50",
       "protein_(g)": "less than 1 gram",
@@ -649,7 +649,7 @@
     ]
   },
   {
-    "title": "6\" Corn Tortilla",
+    "name": "6\" Corn Tortilla",
     "nutrition": {
       "calories": "50",
       "protein_(g)": "1",
@@ -679,7 +679,7 @@
     ]
   },
   {
-    "title": "12\" Flour Tortilla",
+    "name": "12\" Flour Tortilla",
     "nutrition": {
       "calories": "290",
       "protein_(g)": "8",
@@ -705,3 +705,5 @@
     ]
   }
 ]
+
+

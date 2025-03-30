@@ -1,6 +1,6 @@
 [
   {
-    "title": "THE UNCLE BABE",
+    "name": "THE UNCLE BABE",
     "nutrition": {
       "fat_calories": "35",
       "total_fat": "35 g",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "title": "The Fat Angelo",
+    "name": "The Fat Angelo",
     "nutrition": {
       "total_fat": "34 g",
       "saturated_fat": "11 g",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "title": "The Benny Brown",
+    "name": "The Benny Brown",
     "nutrition": {
       "total_fat": "36 g",
       "saturated_fat": "12 g",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "title": "The Grandpa Joe",
+    "name": "The Grandpa Joe",
     "nutrition": {
       "total_fat": "36 g",
       "saturated_fat": "15 g",
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "title": "THE LOMBARDI",
+    "name": "THE LOMBARDI",
     "nutrition": {
       "total_fat": "30 g",
       "saturated_fat": "9 g",
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "title": "Eggplant Milanese",
+    "name": "Eggplant Milanese",
     "nutrition": {
       "fat_calories": "26",
       "total_fat": "26 g",
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "title": "Chicken Bacon Ranch",
+    "name": "Chicken Bacon Ranch",
     "nutrition": {
       "total_fat": "27 g",
       "saturated_fat": "7 g",
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "title": "Hamburger",
+    "name": "Hamburger",
     "nutrition": {
       "total_fat": "25 g",
       "saturated_fat": "9 g",
@@ -229,7 +229,7 @@
     ]
   },
   {
-    "title": "Classic Cheeseburger",
+    "name": "Classic Cheeseburger",
     "nutrition": {
       "total_fat": "27 g",
       "saturated_fat": "10 g",
@@ -258,7 +258,7 @@
     ]
   },
   {
-    "title": "The Yella Burger",
+    "name": "The Yella Burger",
     "nutrition": {
       "total_fat": "32 g",
       "saturated_fat": "11 g",
@@ -286,7 +286,7 @@
     ]
   },
   {
-    "title": "Bacon Cheeseburger",
+    "name": "Bacon Cheeseburger",
     "nutrition": {
       "total_fat": "26 g",
       "saturated_fat": "10 g",
@@ -315,7 +315,7 @@
     ]
   },
   {
-    "title": "Jersey Smash",
+    "name": "Jersey Smash",
     "nutrition": {
       "total_fat": "35 g",
       "saturated_fat": "11 g",
@@ -344,7 +344,7 @@
     ]
   },
   {
-    "title": "The Cowboy Burger",
+    "name": "The Cowboy Burger",
     "nutrition": {
       "total_fat": "36 g",
       "saturated_fat": "15 g",
@@ -373,7 +373,7 @@
     ]
   },
   {
-    "title": "Crispy Chicken",
+    "name": "Crispy Chicken",
     "nutrition": {
       "total_fat": "17 g",
       "saturated_fat": "3 g",
@@ -400,7 +400,7 @@
     ]
   },
   {
-    "title": "Buffalo Chicken",
+    "name": "Buffalo Chicken",
     "nutrition": {
       "total_fat": "22 g",
       "saturated_fat": "4 g",
@@ -426,7 +426,7 @@
     ]
   },
   {
-    "title": "Nashville Hot",
+    "name": "Nashville Hot",
     "nutrition": {
       "total_fat": "40 g",
       "saturated_fat": "5 g",
@@ -452,7 +452,7 @@
     ]
   },
   {
-    "title": "Grilled Chicken",
+    "name": "Grilled Chicken",
     "nutrition": {
       "total_fat": "24 g",
       "saturated_fat": "3 g",
@@ -479,7 +479,7 @@
     ]
   },
   {
-    "title": "Jumbo Tenders",
+    "name": "Jumbo Tenders",
     "nutrition": {
       "total_fat": "8 g",
       "saturated_fat": "2 g",
@@ -503,7 +503,7 @@
     ]
   },
   {
-    "title": "The Yella Submarine",
+    "name": "The Yella Submarine",
     "nutrition": {
       "fat_calories": "30",
       "total_fat": "0 g",
@@ -533,7 +533,7 @@
     ]
   },
   {
-    "title": "The Torpedo",
+    "name": "The Torpedo",
     "nutrition": {
       "fat_calories": "67",
       "total_fat": "67 g",
@@ -564,7 +564,7 @@
     ]
   },
   {
-    "title": "The Nuclear Sub",
+    "name": "The Nuclear Sub",
     "nutrition": {
       "total_fat": "23 g",
       "saturated_fat": "11 g",
@@ -593,7 +593,7 @@
     ]
   },
   {
-    "title": "Turkey Club Sub",
+    "name": "Turkey Club Sub",
     "nutrition": {
       "total_fat": "45 g",
       "saturated_fat": "13 g",
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "title": "Talking Turkey Sub",
+    "name": "Talking Turkey Sub",
     "nutrition": {
       "total_fat": "39 g",
       "saturated_fat": "11 g",
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "title": "Vanilla Shake",
+    "name": "Vanilla Shake",
     "nutrition": {
       "total_fat": "38 g",
       "saturated_fat": "22 g",
@@ -672,7 +672,7 @@
     ]
   },
   {
-    "title": "CHOCOLATE SHAKE",
+    "name": "CHOCOLATE SHAKE",
     "nutrition": {
       "total_fat": "38 g",
       "saturated_fat": "22 g",
@@ -696,7 +696,7 @@
     ]
   },
   {
-    "title": "STRAWBERRY SHAKE",
+    "name": "STRAWBERRY SHAKE",
     "nutrition": {
       "total_fat": "38 g",
       "saturated_fat": "22 g",
@@ -721,7 +721,7 @@
     ]
   },
   {
-    "title": "CARAMEL SHAKE",
+    "name": "CARAMEL SHAKE",
     "nutrition": {
       "total_fat": "40 g",
       "saturated_fat": "23 g",
@@ -745,7 +745,7 @@
     ]
   },
   {
-    "title": "FRIES",
+    "name": "FRIES",
     "nutrition": {
       "total_fat": "8 g",
       "saturated_fat": "0 g",
@@ -769,7 +769,7 @@
     ]
   },
   {
-    "title": "SWEET POTATO WAFFLE FRIES",
+    "name": "SWEET POTATO WAFFLE FRIES",
     "nutrition": {
       "total_fat": "10 g",
       "saturated_fat": "1 g",
@@ -794,7 +794,7 @@
     ]
   },
   {
-    "title": "ONION RINGS",
+    "name": "ONION RINGS",
     "nutrition": {
       "total_fat": "1 g",
       "saturated_fat": "0 g",
@@ -819,7 +819,7 @@
     ]
   },
   {
-    "title": "EGG & CHEESE SANDWICH",
+    "name": "EGG & CHEESE SANDWICH",
     "nutrition": {
       "total_fat": "15 g",
       "saturated_fat": "6 g",
@@ -844,7 +844,7 @@
     ]
   },
   {
-    "title": "BACON, EGG & CHEESE SANDWICH",
+    "name": "BACON, EGG & CHEESE SANDWICH",
     "nutrition": {
       "total_fat": "16 g",
       "saturated_fat": "6 g",
@@ -870,7 +870,7 @@
     ]
   },
   {
-    "title": "SAUSAGE, EGG & CHEESE SANDWICH",
+    "name": "SAUSAGE, EGG & CHEESE SANDWICH",
     "nutrition": {
       "total_fat": "36 g",
       "saturated_fat": "14 g",
@@ -896,7 +896,7 @@
     ]
   },
   {
-    "title": "HAM , EGG & CHEESE SANDWICH",
+    "name": "HAM , EGG & CHEESE SANDWICH",
     "nutrition": {
       "total_fat": "16 g",
       "saturated_fat": "6 g",
@@ -922,3 +922,5 @@
     ]
   }
 ]
+
+
