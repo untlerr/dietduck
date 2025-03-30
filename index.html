@@ -15,11 +15,8 @@
         :root {
             --main-bg: #ffffff;
             --text-color: #363636;
-            --shadow-light: #ffffff;
-            --shadow-dark: #a3b1c6;
             --toggle: #690021;
             --accent: #8c1616;
-            --border-radius: 10px;
         }
 
         * {
@@ -30,29 +27,18 @@
         }
 
         body {
-            background-color: var(--main-bg);
-            color: var(--text-color);
+            background-image: url('images/attilabg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 15px;
-        }
+        }   
 
-        .auth-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            max-width: 400px;
-            padding: 20px;
-            border-radius: var(--border-radius);
-            background: var(--main-bg);
-            box-shadow: 8px 8px 16px var(--shadow-dark),
-                -8px -8px 16px var(--shadow-light);
-            text-align: center;
-        }
 
         /* Toggle slider styles */
         .toggle-slider {
@@ -74,7 +60,6 @@
             border-radius: var(--border-radius);
             text-align: center;
             cursor: pointer;
-            transition: background-color 0.3s ease;
         }
 
         .toggle-slider label.active {
@@ -86,11 +71,9 @@
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: none;
-            border-radius: var(--border-radius);
+            border-radius: var;
+            border: 2px solid black;
             background: var(--main-bg);
-            box-shadow: inset 4px 4px 8px var(--shadow-dark),
-                inset -4px -4px 8px var(--shadow-light);
             color: var(--text-color);
             font-size: 1rem;
             text-align: center;
@@ -103,12 +86,11 @@
             font-weight: 600;
             padding: 10px; /* Added padding for consistency */
             background-color: var(--accent); /* Use the defined accent color */
+            box-shadow: none; 
             color: white;
-            border: none;
-            border-radius: var(--border-radius);
+            border-radius: var;
+            border: 2px solid black;
             cursor: pointer;
-            box-shadow: 6px 6px 12px var(--shadow-dark),
-                -6px -6px 12px var(--shadow-light);
         }
     </style>
 </head>
@@ -119,10 +101,11 @@
         
         <div class="toggle-slider">
             <input type="radio" id="loginToggle" name="authToggle" checked>
-            <label for="loginToggle" class="active">Login</label>
+            <label for="loginToggle" class="active" style="border: 2px solid black;">Login</label>
             <input type="radio" id="signUpToggle" name="authToggle">
-            <label for="signUpToggle">Sign Up</label>
+            <label for="signUpToggle" style="border: 2px solid black;">Sign Up</label>
         </div>
+        
 
         <div id="loginForm">
             <input type="text" id="username" placeholder="Username" required>
