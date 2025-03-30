@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diet Duck</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="userAuth.js"></script>
+    <script type="module" src="userAuth.js"></script>
 </head>
 <!-- login script for the login page-->
 
 <body>
-    <h1>Diet Duck</h>
+    <h1>Diet Duck</h1>
+    <!--CURRENTLY SET TO PLACEHOLDER FUNCTION></!-->
     <form onsubmit="login(event)">
         <input type="text" id="username" placeholder="Enter username" required>
         <input type="password" id="password" placeholder="Enter password" required>
         <button type="submit">Login</button>
     </form>
 
-    <p> <a href="signup.html">Sign Up</a><p>
+  <p> <a href="signup.html">Sign Up</a></p>
 
+
+    <!-- PLACEHOLDER BUTTON: DELETE!!!!!!!!> </!-->
+    <button onclick="redirectToPage()"> homepage(placeholder)</button>
+    <script>
+        function redirectToPage() {
+            window.location.href = "homepage.html";
+        }
+    </script>
 </body>
 </html>
