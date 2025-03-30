@@ -1,5 +1,8 @@
 // Load environment variables from .env file
-require('dotenv').config();  
+require('dotenv').config();
+
+// Check if the OpenAI API key is loaded
+console.log("Loaded API Key:", process.env.OPENAI_API_KEY ? "✅ Loaded" : "❌ Not Loaded");  
 
 // Import necessary modules
 const express = require('express');
