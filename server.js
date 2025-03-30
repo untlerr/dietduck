@@ -70,7 +70,7 @@ app.post('/api/recommendations', async (req, res) => {
 Available meals/ingredients:
 ${menuDescription}
 If the restaurant has many a la cart options or sides, consider those and build a well rounded meal.
-If the restaurant is pierce do not have the user assemble too much of their meal. Rather combine multiple substantial sources.Exeptions for things like burgers or sandwhiches were ingredents are only thing listed.
+If the restaurant is pierce do not have the user assemble too much of their meal. Rather combine multiple substantial sources.Exeptions for things like burgers or sandwhiches were ingredents are only
 The meals should each be pretty different offering a very healthy, medium healthy, and comfort/cheat meal but don't label them.
 If you you have a better name for any of the food items you can update the anem of the food item.
 Prioritize:

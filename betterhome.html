@@ -37,7 +37,7 @@
         // Load restaurants and initialize clock
         window.onload = async () => {
             // Load restaurants
-            const response = await fetch('/api/restaurants');
+            const response = await fetch('http://localhost:3000/api/restaurants');
             const restaurants = await response.json();
             const select = document.getElementById('restaurantSelect');
 
@@ -99,7 +99,8 @@
         }
 
         function formatMealRecommendations(data) {
-            let html = `<h2>${data.restaurant}</h2>`;
+            let html = ''; // Add this line - you're missing the initialization
+
 
             if (data.recommendations && data.recommendations.meals) {
                 html += '<div class="meal-options">';
@@ -188,7 +189,7 @@
             try {
                 document.getElementById('results').innerHTML = '<div class="loading">Loading recommendations...</div>';
 
-                const response = await fetch('/api/recommendations', {
+               const response = await fetch('http://localhost:3000/api/recommendations', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ restaurantName: restaurant, mealType })
