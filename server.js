@@ -37,21 +37,16 @@ app.post('/api/recommendations', async (req, res) => {
 
     const menuItems = JSON.parse(fs.readFileSync(restaurantPath, 'utf8'));
     
-    // Format menu items for the prompt
     const menuDescription = menuItems.map(item => {
-      // Clean up nutrition data
       const nutrition = Object.entries(item.nutrition)
         .map(([key, value]) => {
-          // Remove underscores and format key properly
           const cleanKey = key.replace(/_/g, ' ').replace(/\(|\)/g, '');
           return `${cleanKey}: ${value}`;
         })
         .join(', ');
       
-      // Get ingredients, filtering out duplicated nutrition info
       const cleanIngredients = item.ingredients
         .filter((ing, index) => {
-          // Skip the first ingredient if it contains duplicated nutrition info
           if (index === 0 && ing.includes('\n\u00d7\n')) {
             return false;
           }
@@ -59,7 +54,6 @@ app.post('/api/recommendations', async (req, res) => {
         })
         .join(', ');
       
-      // Return formatted menu item description with portion
       return `- ${item.name}\n  ${nutrition}\n  Portion: ${item.portion}\n  Ingredients: ${cleanIngredients || 'None'}`;
     }).join('\n');
 

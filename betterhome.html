@@ -34,9 +34,7 @@
     </div>
 
     <script>
-        // Load restaurants and initialize clock
         window.onload = async () => {
-            // Load restaurants
             const response = await fetch('/api/restaurants');
             const restaurants = await response.json();
             const select = document.getElementById('restaurantSelect');
@@ -48,30 +46,24 @@
                 select.appendChild(option);
             });
 
-            // Initialize and update the clock
             updateTime();
             setInterval(updateTime, 1000);
         };
 
-        // Update the time display
         function updateTime() {
             const now = new Date();
             const timeDisplay = document.getElementById('current-time');
             timeDisplay.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         }
 
-        // Parse serving size to get numeric value and unit
         function parseServingSize(servingSize) {
             if (!servingSize) return { value: 1, unit: 'serving', text: '1 serving' };
 
-            // Extract the actual serving size (after the colon)
             const sizePart = servingSize.split(': ')[1] || servingSize;
 
-            // Try to extract numeric value
             const numMatch = sizePart.match(/(\d+(\.\d+)?)/);
             const numValue = numMatch ? parseFloat(numMatch[0]) : 1;
 
-            // Extract unit (anything after the number)
             let unit = 'serving';
             if (numMatch) {
                 unit = sizePart.replace(numMatch[0], '').trim();
@@ -87,9 +79,7 @@
             };
         }
 
-        // Generate a color based on item name for consistency
         function getItemColor(itemName) {
-            // Simple hash function to generate a hue value between 0-360
             let hash = 0;
             for (let i = 0; i < itemName.length; i++) {
                 hash = itemName.charCodeAt(i) + ((hash << 5) - hash);
@@ -122,7 +112,6 @@
                         };
                     });
 
-                    // Generate HTML for the meal card
                     html += `
                         <div class="meal-option">
                             <h3>${meal.name}</h3>
