@@ -44,7 +44,13 @@ College students often struggle with maintaining healthy eating habits due to li
 5. **Chat with Attila**: Get AI-powered nutritional advice and feedback
 
 ## Screenshots
-[Screenshots will be added here]
+![image](https://github.com/user-attachments/assets/ae5d1edc-cc41-4228-9636-9781e888c16a)
+![image](https://github.com/user-attachments/assets/52a581c7-2182-42b2-871d-bc13d41fd61a)
+![image](https://github.com/user-attachments/assets/1395d957-0005-4803-9126-62a58415e4d4)
+![image](https://github.com/user-attachments/assets/cdc2f1f9-929b-4a15-891c-eaf1c2f4b51e)
+
+
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
