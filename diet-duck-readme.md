@@ -1,20 +1,19 @@
 # Diet Duck
 
 ## Team Members
-- Aiden M.
-- Sydney
-- Emman
+- Aiden McManus.
+- Sydney Faranetta
+- Emmanuel Owusu
 - Adrian Lee
-- [Other team members]
 
 ## Project Description
-Diet Duck is a personalized campus dining assistant designed to help students make informed dietary choices. The application analyzes campus dining options based on user preferences, dietary restrictions, and nutritional goals to provide tailored meal suggestions.
+Diet Duck is a personalized campus dining assistant designed to help students make informed dietary choices. The application analyzes campus dining options based on user preferences, dietary restrictions, Stevens food macrodata, and nutritional goals to provide tailored meal suggestions.
 
 ### Key Features
 - **Personalized Meal Recommendations**: Offers suggestions based on user preferences, dietary restrictions, and nutritional goals
 - **Campus Dining Integration**: Scrapes real-time menu data from the Dine on Campus website
 - **Interactive Campus Map**: Displays dining locations on campus with interactive bubbles
-- **Comprehensive Preference System**: Allows users to set protein, grain, dairy, and vegetable preferences
+- **Comprehensive Preference System**: Allows users to set protein, grain, dairy, and vegetable preferences with us of an AI agent
 - **Dietary Restriction Support**: Accommodates allergies, halal requirements, and other dietary needs
 - **AI-Powered Feedback**: "Attila" chatbot agent provides personalized nutrition advice
 
@@ -40,8 +39,8 @@ College students often struggle with maintaining healthy eating habits due to li
 ## User Flow
 1. **Login/Sign Up**: Create an account or log in to an existing account
 2. **Set Preferences**: Configure dietary restrictions, allergies, and food preferences
-3. **View Campus Map**: Locate dining options on the interactive Stevens campus map
 4. **Get Recommendations**: Receive personalized meal suggestions based on open restaurants
+4. **View Campus Map**: Locate dining options on the interactive Stevens campus map
 5. **Chat with Attila**: Get AI-powered nutritional advice and feedback
 
 ## Screenshots
@@ -51,7 +50,6 @@ College students often struggle with maintaining healthy eating habits due to li
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Future Development
-- Mobile application
 - Integration with additional campus dining systems
 - Expanded nutritional tracking features
 - Social sharing capabilities
