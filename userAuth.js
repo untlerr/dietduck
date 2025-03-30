@@ -1,40 +1,77 @@
-const users = [];
+import AWS from "aws-sdk";
+import bcrypt from "bcryptjs";
 
-// hashing function
-function hash(password) {
-  const argon2 = require('argon2');
+// configure the AWS SDK
+AWS.config.update({
+  // the other two fields will be filled out from the .aws/credentials file
+  region: "us-east-1"
+});
 
-  // hash the password using argon2
-  argon2.hash(password)
-    .then(hash => {
-      console.log("hashed password: ", hash);
-    })
-    .catch(err => {
-      console.error("error hashing password: ", err);
-    });
+// Create DynamoDB service object
+const docClient = new AWS.DynamoDB.DocumentClient();
 
-  // verify the password
-  argon2.verify(storedHash, password).then(match => {
-    if (match) {console.log("password is valid");}
-    else {console.log("Invalid password");}
-  })
-  .catch(err => {
-    console.error("error verifying password: ", err);
-  });
 
-  return password;
+// USER SIGNUP FUNCTION
+async function signup(event) {
+  event.preventDefault();
+  const password = document.getElementById("password");
+  
+  const hashedPassword = await bcrypt.hash(password, 10); // 10 is the salt
+  console.log("successful hash");
+
+  // define parameters for the operation
+  const parameters = {
+    TableName: "users",
+    Item: {
+      username: document.getElementById("username").value,
+      password: hashedPassword
+    },
+    ConditionExpression: "attribute_not_exists(username)" // ensures unique username
+  };
+
+  // insert the item into the dynamodb Table called users
+  try {
+    await docClient.put(parameters).promise();
+    console.log("user signed up successfully");
+  }
+  catch (error) {
+    if (error.code === "ConditionalCheckFailedException") {
+      console.error("username already exists.");
+    }
+    else {
+      console.error("error signing up user: ", error);
+    }
+  }
 }
 
-function signup(event) {
+// USER LOGIN FUNCTION
+async function login(event) {
   event.preventDefault();
-  console.log("successful signup");
+  const password = document.getElementById("password");
 
-  // add username and password to the database (dictionary)
-  users.push({ username: document.getElementById("username").value, 
-              password: hash(document.getElementById("password").value) });
-}
+  // define parameters for operation
+  const parameters = {
+    TableName: "users",
+    Key: {
+      username: document.getElementById("username").value
+    }
+  };
 
-function login(event) {
-  event.preventDefault();
-  console.log("successful login");
+  // try to retrieve user object
+  try {
+    const data = await docClient.get(parameters).promise();
+    if (data.Item) {
+      // compare provided password with hashed password in database
+      const isMatch = await bcrypt.compare(password, data.Item.password);
+      if (isMatch) {
+        console.log("successful login");
+      }
+      else {
+        console.log("user not found");
+      }
+    }
+  }
+  catch (error) {
+    console.error("error logging in user mysterious error", error);
+  }
 }
