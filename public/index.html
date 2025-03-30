@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Diet</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        #chat-container { max-width: 600px; margin: auto; }
+        #messages { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; }
+        input, button { margin-top: 10px; padding: 10px; width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Duck Diet</h1>
+    <div id="chat-container">
+        <div id="messages"></div>
+        <input type="text" id="userInput" placeholder="Enter your preferences...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    
+    <script>
+        let conversationHistory = [];
+
+        async function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            if (!userInput.trim()) return;
+
+            const messagesDiv = document.getElementById('messages');
+            messagesDiv.innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
+            document.getElementById('userInput').value = '';
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ input: userInput, history: conversationHistory })
+                });
+                
+                const data = await response.json();
+                if (data.response) {
+                    conversationHistory = data.history;
+                    messagesDiv.innerHTML += `<p><strong>Assistant:</strong> ${JSON.stringify(data.response, null, 2)}</p>`;
+                } else {
+                    messagesDiv.innerHTML += `<p><strong>Error:</strong> ${data.error}</p>`;
+                }
+            } catch (error) {
+                messagesDiv.innerHTML += `<p><strong>Error:</strong> Unable to connect to server.</p>`;
+            }
+
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+    </script>
+</body>
+</html>
