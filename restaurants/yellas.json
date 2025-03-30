@@ -1,0 +1,686 @@
+[
+  {
+    "title": "THE UNCLE BABE",
+    "nutrition": {
+      "fat_calories": "35",
+      "total_fat": "35 g",
+      "saturated_fat": "15 g",
+      "trans_fat": "0 g",
+      "cholesterol": "110 mg",
+      "sodium": "mg",
+      "potassium": "208 g",
+      "total_carbohydrates": "74 g",
+      "dietary_fiber": "0 g",
+      "sugars": "g",
+      "protein": "47 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "323 g",
+      "iron": "7 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Fat Angelo",
+    "nutrition": {
+      "total_fat": "34 g",
+      "saturated_fat": "11 g",
+      "trans_fat": "0 g",
+      "cholesterol": "100 mg",
+      "sodium": "mg",
+      "potassium": "1092 g",
+      "total_carbohydrates": "84 g",
+      "dietary_fiber": "2 g",
+      "sugars": "g",
+      "protein": "45 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "272 g",
+      "iron": "7 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Benny Brown",
+    "nutrition": {
+      "total_fat": "36 g",
+      "saturated_fat": "12 g",
+      "trans_fat": "0 g",
+      "cholesterol": "100 mg",
+      "sodium": "mg",
+      "potassium": "788 g",
+      "total_carbohydrates": "74 g",
+      "dietary_fiber": "1 g",
+      "sugars": "5 g",
+      "protein": "48 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "282 g",
+      "iron": "6 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Grandpa Joe",
+    "nutrition": {
+      "total_fat": "36 g",
+      "saturated_fat": "15 g",
+      "trans_fat": "0 g",
+      "cholesterol": "105 mg",
+      "sodium": "mg",
+      "potassium": "808 g",
+      "total_carbohydrates": "72 g",
+      "dietary_fiber": "1 g",
+      "sugars": "5 g",
+      "protein": "50 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "452 g",
+      "iron": "6 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "THE LOMBARDI",
+    "nutrition": {
+      "total_fat": "30 g",
+      "saturated_fat": "9 g",
+      "trans_fat": "0 g",
+      "cholesterol": "160 mg",
+      "sodium": "mg",
+      "potassium": "730 g",
+      "total_carbohydrates": "97 g",
+      "dietary_fiber": "0 g",
+      "sugars": "5 g",
+      "protein": "50 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "245 g",
+      "iron": "6 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Eggplant Milanese",
+    "nutrition": {
+      "fat_calories": "26",
+      "total_fat": "26 g",
+      "saturated_fat": "9 g",
+      "trans_fat": "0 g",
+      "cholesterol": "30 mg",
+      "sodium": "mg",
+      "potassium": "818 g",
+      "total_carbohydrates": "142 g",
+      "dietary_fiber": "5 g",
+      "sugars": "13 g",
+      "protein": "32 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "468 g",
+      "iron": "8 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Chicken Bacon Ranch",
+    "nutrition": {
+      "total_fat": "27 g",
+      "saturated_fat": "7 g",
+      "trans_fat": "0 g",
+      "cholesterol": "145 mg",
+      "sodium": "mg",
+      "potassium": "579 g",
+      "total_carbohydrates": "50 g",
+      "dietary_fiber": "1 g",
+      "sugars": "8 g",
+      "protein": "40 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "214 g",
+      "iron": "2 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Hamburger",
+    "nutrition": {
+      "total_fat": "25 g",
+      "saturated_fat": "9 g",
+      "trans_fat": "1.5 g",
+      "cholesterol": "80 mg",
+      "sodium": "mg",
+      "potassium": "414 g",
+      "total_carbohydrates": "28 g",
+      "dietary_fiber": "g",
+      "sugars": "8 g",
+      "protein": "25 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "126 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Classic Cheeseburger",
+    "nutrition": {
+      "total_fat": "27 g",
+      "saturated_fat": "10 g",
+      "trans_fat": "1.5 g",
+      "cholesterol": "85 mg",
+      "sodium": "mg",
+      "potassium": "414 g",
+      "total_carbohydrates": "28 g",
+      "dietary_fiber": "g",
+      "sugars": "9 g",
+      "protein": "26 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "175 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Yella Burger",
+    "nutrition": {
+      "total_fat": "32 g",
+      "saturated_fat": "11 g",
+      "trans_fat": "1 g",
+      "cholesterol": "85 mg",
+      "sodium": "mg",
+      "potassium": "416 g",
+      "total_carbohydrates": "22 g",
+      "dietary_fiber": "0 g",
+      "sugars": "5 g",
+      "protein": "24 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "199 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Bacon Cheeseburger",
+    "nutrition": {
+      "total_fat": "26 g",
+      "saturated_fat": "10 g",
+      "trans_fat": "1 g",
+      "cholesterol": "80 mg",
+      "sodium": "mg",
+      "potassium": "351 g",
+      "total_carbohydrates": "20 g",
+      "dietary_fiber": "0 g",
+      "sugars": "4 g",
+      "protein": "25 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "187 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Jersey Smash",
+    "nutrition": {
+      "total_fat": "35 g",
+      "saturated_fat": "11 g",
+      "trans_fat": "1.5 g",
+      "cholesterol": "95 mg",
+      "sodium": "mg",
+      "potassium": "452 g",
+      "total_carbohydrates": "27 g",
+      "dietary_fiber": "1 g",
+      "sugars": "7 g",
+      "protein": "26 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "184 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Cowboy Burger",
+    "nutrition": {
+      "total_fat": "36 g",
+      "saturated_fat": "15 g",
+      "trans_fat": "1.5 g",
+      "cholesterol": "110 mg",
+      "sodium": "mg",
+      "potassium": "484 g",
+      "total_carbohydrates": "57 g",
+      "dietary_fiber": "0 g",
+      "sugars": "14 g",
+      "protein": "36 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "331 g",
+      "iron": "5 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Crispy Chicken",
+    "nutrition": {
+      "total_fat": "17 g",
+      "saturated_fat": "3 g",
+      "trans_fat": "0 g",
+      "cholesterol": "135 mg",
+      "sodium": "mg",
+      "potassium": "513 g",
+      "total_carbohydrates": "47 g",
+      "dietary_fiber": "0 g",
+      "sugars": "6 g",
+      "protein": "34 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "119 g",
+      "iron": "2 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Buffalo Chicken",
+    "nutrition": {
+      "total_fat": "22 g",
+      "saturated_fat": "4 g",
+      "trans_fat": "0 g",
+      "cholesterol": "130 mg",
+      "sodium": "mg",
+      "potassium": "492 g",
+      "total_carbohydrates": "48 g",
+      "dietary_fiber": "0 g",
+      "sugars": "7 g",
+      "protein": "34 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "103 g",
+      "iron": "2 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Nashville Hot",
+    "nutrition": {
+      "total_fat": "40 g",
+      "saturated_fat": "5 g",
+      "trans_fat": "0 g",
+      "cholesterol": "130 mg",
+      "sodium": "mg",
+      "potassium": "g",
+      "total_carbohydrates": "473 g",
+      "dietary_fiber": "0 g",
+      "sugars": "11 g",
+      "protein": "35 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "146 g",
+      "iron": "2 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Grilled Chicken",
+    "nutrition": {
+      "total_fat": "24 g",
+      "saturated_fat": "3 g",
+      "trans_fat": "0 g",
+      "cholesterol": "75 mg",
+      "sodium": "mg",
+      "potassium": "509 g",
+      "total_carbohydrates": "26 g",
+      "dietary_fiber": "1 g",
+      "sugars": "6 g",
+      "protein": "27 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "99 g",
+      "iron": "2 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Jumbo Tenders",
+    "nutrition": {
+      "total_fat": "8 g",
+      "saturated_fat": "2 g",
+      "trans_fat": "0 g",
+      "cholesterol": "205 mg",
+      "sodium": "mg",
+      "potassium": "597 g",
+      "total_carbohydrates": "37 g",
+      "dietary_fiber": "0 g",
+      "sugars": "1 g",
+      "protein": "46 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "22 g",
+      "iron": "1 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Yella Submarine",
+    "nutrition": {
+      "fat_calories": "30",
+      "total_fat": "0 g",
+      "saturated_fat": "14 g",
+      "trans_fat": "0 g",
+      "cholesterol": "105 mg",
+      "sodium": "mg",
+      "potassium": "170 g",
+      "total_carbohydrates": "71 g",
+      "dietary_fiber": "g",
+      "sugars": "4 g",
+      "protein": "45 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "392 g",
+      "iron": "6 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Torpedo",
+    "nutrition": {
+      "fat_calories": "67",
+      "total_fat": "67 g",
+      "saturated_fat": "25 g",
+      "trans_fat": "0 g",
+      "cholesterol": "160 mg",
+      "sodium": "mg",
+      "potassium": "306 g",
+      "total_carbohydrates": "76 g",
+      "dietary_fiber": "0 g",
+      "sugars": "g",
+      "protein": "44 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "332 g",
+      "iron": "6 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "The Nuclear Sub",
+    "nutrition": {
+      "total_fat": "23 g",
+      "saturated_fat": "11 g",
+      "trans_fat": "0 g",
+      "cholesterol": "100 mg",
+      "sodium": "mg",
+      "potassium": "111 g",
+      "total_carbohydrates": "71 g",
+      "dietary_fiber": "g",
+      "sugars": "g",
+      "protein": "44 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "460 g",
+      "iron": "6 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Turkey Club Sub",
+    "nutrition": {
+      "total_fat": "45 g",
+      "saturated_fat": "13 g",
+      "trans_fat": "g",
+      "cholesterol": "120 mg",
+      "sodium": "mg",
+      "potassium": "141 g",
+      "total_carbohydrates": "70 g",
+      "dietary_fiber": "g",
+      "sugars": "g",
+      "protein": "57 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "432 g",
+      "iron": "7 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Talking Turkey Sub",
+    "nutrition": {
+      "total_fat": "39 g",
+      "saturated_fat": "11 g",
+      "trans_fat": "g",
+      "cholesterol": "115 mg",
+      "sodium": "mg",
+      "potassium": "111 g",
+      "total_carbohydrates": "71 g",
+      "dietary_fiber": "g",
+      "sugars": "g",
+      "protein": "54 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "461 g",
+      "iron": "7 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "Vanilla Shake",
+    "nutrition": {
+      "total_fat": "38 g",
+      "saturated_fat": "22 g",
+      "trans_fat": "0 g",
+      "cholesterol": "145 mg",
+      "sodium": "mg",
+      "potassium": "0 g",
+      "total_carbohydrates": "79 g",
+      "dietary_fiber": "0 g",
+      "sugars": "9 g",
+      "protein": "13 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "g",
+      "iron": "g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "CHOCOLATE SHAKE",
+    "nutrition": {
+      "total_fat": "38 g",
+      "saturated_fat": "22 g",
+      "trans_fat": "0 g",
+      "cholesterol": "1 mg",
+      "sodium": "mg",
+      "potassium": "90 g",
+      "total_carbohydrates": "79 g",
+      "dietary_fiber": "0 g",
+      "sugars": "29 g",
+      "protein": "13 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "6 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "STRAWBERRY SHAKE",
+    "nutrition": {
+      "total_fat": "38 g",
+      "saturated_fat": "22 g",
+      "trans_fat": "0 g",
+      "cholesterol": "145 mg",
+      "sodium": "mg",
+      "potassium": "0 g",
+      "total_carbohydrates": "100 g",
+      "dietary_fiber": "0 g",
+      "sugars": "26 g",
+      "protein": "13 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "0 g",
+      "iron": "0 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "CARAMEL SHAKE",
+    "nutrition": {
+      "total_fat": "40 g",
+      "saturated_fat": "23 g",
+      "trans_fat": "0 g",
+      "cholesterol": "150 mg",
+      "sodium": "mg",
+      "potassium": "0 g",
+      "total_carbohydrates": "112 g",
+      "dietary_fiber": "0 g",
+      "sugars": "34 g",
+      "protein": "13 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "g",
+      "iron": "g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "FRIES",
+    "nutrition": {
+      "total_fat": "8 g",
+      "saturated_fat": "0 g",
+      "trans_fat": "0 g",
+      "cholesterol": "0 mg",
+      "sodium": "mg",
+      "potassium": "578 g",
+      "total_carbohydrates": "46 g",
+      "dietary_fiber": "g",
+      "sugars": "2 g",
+      "protein": "2 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "23 g",
+      "iron": "1 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "SWEET POTATO WAFFLE FRIES",
+    "nutrition": {
+      "total_fat": "10 g",
+      "saturated_fat": "1 g",
+      "trans_fat": "0 g",
+      "cholesterol": "0 mg",
+      "sodium": "mg",
+      "potassium": "450 g",
+      "total_carbohydrates": "38 g",
+      "dietary_fiber": "g",
+      "sugars": "8 g",
+      "protein": "2 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "33 g",
+      "iron": "1 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "ONION RINGS",
+    "nutrition": {
+      "total_fat": "1 g",
+      "saturated_fat": "0 g",
+      "trans_fat": "0 g",
+      "cholesterol": "0 mg",
+      "sodium": "mg",
+      "potassium": "161 g",
+      "total_carbohydrates": "50 g",
+      "dietary_fiber": "g",
+      "sugars": "0 g",
+      "protein": "5 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "36 g",
+      "iron": "5 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "EGG & CHEESE SANDWICH",
+    "nutrition": {
+      "total_fat": "15 g",
+      "saturated_fat": "6 g",
+      "trans_fat": "0 g",
+      "cholesterol": "280 mg",
+      "sodium": "mg",
+      "potassium": "92 g",
+      "total_carbohydrates": "25 g",
+      "dietary_fiber": "g",
+      "sugars": "6 g",
+      "protein": "16 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "170 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "BACON, EGG & CHEESE SANDWICH",
+    "nutrition": {
+      "total_fat": "16 g",
+      "saturated_fat": "6 g",
+      "trans_fat": "0 g",
+      "cholesterol": "285 mg",
+      "sodium": "mg",
+      "potassium": "92 g",
+      "total_carbohydrates": "25 g",
+      "dietary_fiber": "g",
+      "sugars": "6 g",
+      "protein": "18 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "170 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "SAUSAGE, EGG & CHEESE SANDWICH",
+    "nutrition": {
+      "total_fat": "36 g",
+      "saturated_fat": "14 g",
+      "trans_fat": "0 g",
+      "cholesterol": "330 mg",
+      "sodium": "mg",
+      "potassium": "92 g",
+      "total_carbohydrates": "25 g",
+      "dietary_fiber": "g",
+      "sugars": "6 g",
+      "protein": "24 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "170 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  },
+  {
+    "title": "HAM , EGG & CHEESE SANDWICH",
+    "nutrition": {
+      "total_fat": "16 g",
+      "saturated_fat": "6 g",
+      "trans_fat": "0 g",
+      "cholesterol": "295 mg",
+      "sodium": "mg",
+      "potassium": "92 g",
+      "total_carbohydrates": "26 g",
+      "dietary_fiber": "g",
+      "sugars": "2 g",
+      "protein": "23 g",
+      "vitamin_a": "g",
+      "vitamin_c": "g",
+      "calcium": "170 g",
+      "iron": "3 g"
+    },
+    "ingredients": []
+  }
+]
