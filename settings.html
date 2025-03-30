@@ -1,10 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Meal Recommender</title>
+    <link rel="stylesheet" href="css/style.css">
 
+    <style>
+        /* Hamburger menu styles */
+        .hamburger-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
 
+        .hamburger {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 30px;
+        }
 
+        .bar {
+            height: 4px;
+            width: 100%;
+            background-color: #333;
+            transition: all 0.3s ease;
+        }
 
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 40px;
+            right: 0;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
 
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Container styles */
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .bubble-container {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .bubble {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 10px;
+            background-color: #8c1616;
+            color: white;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+
+        .bubble .remove {
+            margin-left: 5px;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #8c1616;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #8c1616;
+        }
+
+        #resultMessage {
+            text-align: center;
+            margin-top: 10px;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hamburger-menu">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="settings.html">Settings</a>
+            <a href="index.html">Log Out</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Settings</h1>
+        <form id="settingsForm" onsubmit="return false;">
+            <div class="form-group">
+                <label for="preferenceInput">Add Preference:</label>
+                <input type="text" id="preferenceInput" placeholder="Enter preference" />
+            </div>
+
+            <button type="button" onclick="addPreference()">Add Preference</button>
+        </form>
+        <div class="bubble-container" id="bubbleContainer"></div>
+        <div id="resultMessage"></div>
+    </div>
+
+    <script>
+        const preferences = [];
+
+        // Add preference function
+        function addPreference() {
+            const input = document.getElementById('preferenceInput');
+            const preference = input.value.trim();
+
+            if (preference) {
+                preferences.push(preference);
+                input.value = ''; // Clear input field
+                displayPreferences();
+                document.getElementById('resultMessage').innerText = 'Preference added!';
+            } else {
+                document.getElementById('resultMessage').innerText = 'Please enter a valid preference.';
+            }
+        }
+
+        // Display preferences as bubbles
+        function displayPreferences() {
+            const container = document.getElementById('bubbleContainer');
+            container.innerHTML = ''; // Clear previous bubbles
+
+            preferences.forEach((pref, index) => {
+                const bubble = document.createElement('div');
+                bubble.className = 'bubble';
+                bubble.innerText = pref;
+
+                const removeBtn = document.createElement('span');
+                removeBtn.className = 'remove';
+                removeBtn.innerText = 'x';
+                removeBtn.onclick = () => {
+                    preferences.splice(index, 1); // Remove preference from array
+                    displayPreferences(); // Refresh bubbles
+                };
+
+                bubble.appendChild(removeBtn);
+                container.appendChild(bubble);
+            });
+        }
+
+        // Hamburger menu toggle function
+        function toggleMenu() {
+            const menu = document.getElementById('dropdownMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Close the menu if clicked outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.hamburger') && !event.target.matches('.dropdown-menu *')) {
+                const menu = document.getElementById('dropdownMenu');
+                if (menu.style.display === 'block') {
+                    menu.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</body>
 
 </html>
