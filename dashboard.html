@@ -6,9 +6,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meal Recommender</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Add these styles to your existing CSS or within the <style> tag above */
+    .hamburger-menu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .hamburger {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 30px;
+      height: 30px;
+    }
+
+    .bar {
+      height: 4px;
+      width: 100%;
+      background-color: #333;
+      transition: all 0.3s ease;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      background-color: white;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
 </head>
 
 <body>
+
+  <div class="hamburger-menu">
+      <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>
+      <div class="dropdown-menu" id="dropdownMenu">
+          <a href="settings.html">Settings</a>
+          <a href="about.html">About</a>
+          <a href="index.html">Log Out</a>
+      </div>
+  </div>
+
   <div class="container">
     <h1>Meal Recommendations</h1>
 
@@ -64,14 +125,10 @@
     function parseServingSize(servingSize) {
       if (!servingSize) return { value: 1, unit: 'serving', text: '1 serving' };
 
-      // Extract the actual serving size (after the colon)
       const sizePart = servingSize.split(': ')[1] || servingSize;
-
-      // Try to extract numeric value
       const numMatch = sizePart.match(/(\d+(\.\d+)?)/);
       const numValue = numMatch ? parseFloat(numMatch[0]) : 1;
 
-      // Extract unit (anything after the number)
       let unit = 'serving';
       if (numMatch) {
         unit = sizePart.replace(numMatch[0], '').trim();
@@ -89,7 +146,6 @@
 
     // Generate a color based on item name for consistency
     function getItemColor(itemName) {
-      // Simple hash function to generate a hue value between 0-360
       let hash = 0;
       for (let i = 0; i < itemName.length; i++) {
         hash = itemName.charCodeAt(i) + ((hash << 5) - hash);
@@ -105,7 +161,6 @@
         html += '<div class="meal-options">';
 
         data.recommendations.meals.forEach((meal) => {
-          // Generate plates for individual items
           const itemsWithServings = meal.items.map((item, index) => {
             const servingInfo = meal.itemsservingsize && meal.itemsservingsize[index]
               ? meal.itemsservingsize[index]
@@ -122,7 +177,6 @@
             };
           });
 
-          // Generate HTML for the meal card
           html += `
                         <div class="meal-option">
                             <h3>${meal.name}</h3>
@@ -199,6 +253,21 @@
       } catch (error) {
         alert('Error getting recommendations');
         console.error(error);
+      }
+    }
+
+    function toggleMenu() {
+      const menu = document.getElementById('dropdownMenu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Close the menu if clicked outside
+    window.onclick = function(event) {
+      if (!event.target.matches('.hamburger') && !event.target.matches('.dropdown-menu *')) {
+        const menu = document.getElementById('dropdownMenu');
+        if (menu.style.display === 'block') {
+          menu.style.display = 'none';
+        }
       }
     }
   </script>
