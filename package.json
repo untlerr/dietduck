@@ -1,6 +1,26 @@
 {
   "dependencies": {
-    "aws-amplify": "^6.14.1",
-    "dotenv": "^16.4.7"
-  }
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "name": "dietduck",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untlerr/dietduck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/untlerr/dietduck/issues"
+  },
+  "homepage": "https://github.com/untlerr/dietduck#readme",
+  "description": ""
 }
